@@ -1,0 +1,160 @@
+﻿@model StudentApp.Models.Allocation
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+
+<h2>Details</h2>
+<ul class="nav nav-tabs">
+    <li><a href="../../Classroom/Index">Classrooms</a></li>
+    <li><a href="../../Allocation/Create">New Allocation</a></li>
+
+    <li><a href="../../Classroom/view2">Pubudu Institute</a></li>
+    <li class'="active"><a href="../../Classroom/view3">Sipsewana Institute</a></li>
+
+
+
+    <!--
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Locations
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="../Classroom/view2">Pubudu Institute</a></li>
+            <li><a href="../Classroom/view3">Sipsewana Institute</a></li>
+
+        </ul>
+    </li>
+    -->
+    <li class="active"><a href="../../Allocation/Index">Allocations</a></li>
+</ul>
+
+
+<div>
+    <br>
+
+    <table class="table">
+        <tr>
+            <th>
+                Allocation Id
+            </th>
+            <th>
+                Day
+            </th>
+            <th>
+                Start Time
+            </th>
+            <th>
+                End Time
+            </th>
+            <th>
+                No.of Students
+            </th>
+            <th>
+                Teacher id
+            </th>
+            <th>
+                Class id
+            </th>
+            <th>
+                Subject id
+            </th>
+
+            <th></th>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.ca_id)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.day)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.start_time)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.end_time)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.no_of_students)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.t_id)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.class_id)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.sub_id)
+            </td>
+
+
+        </tr>
+
+    </table>
+
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+</div>
+
+
+@*</br>
+
+
+    <div class="row">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3> Allocation Id: @Html.DisplayFor(model => model.ca_id) For Classrooom @Html.DisplayFor(model => model.class_id)</h3>
+            </div>
+            <div class="panel-body">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+            </div>
+
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                        <th>Header 3</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Footer 1</th>
+                        <th>Footer 2</th>
+                        <th>Footer 3</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                    </tr>
+                    <tr>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                    </tr>
+                    <tr>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="panel-body">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+            </div>
+
+        </div>
+
+    </div>*@

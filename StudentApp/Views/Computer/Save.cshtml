@@ -1,0 +1,91 @@
+﻿@model StudentApp.Models.computer
+
+
+@{
+    /**/
+
+    Layout = null;
+}
+<style>
+    .wrapper {
+        text-align: center;
+    }
+</style>
+
+
+<h2>Save</h2>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <img src="~/img/pu8.jpg" width="100" />
+            <!--@Html.ActionLink("Pubudu Education Centre", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })-->
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("Events", "Events", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+@using (Html.BeginForm("save", "Computer", FormMethod.Post, new { id = "popupForm" }))
+{
+
+
+    if (Model != null && Model.MachineNO > 0)
+    {
+        @Html.HiddenFor(a => a.MachineNO)
+
+    }
+    <div class="form-group">
+        <label>Lab No</label>
+        @Html.TextBoxFor(a => a.LabNo, new { @class = "form-control " })
+        @Html.ValidationMessageFor(a => a.LabNo)
+    </div>
+    <div class="form-group">
+        <label>Machine No</label>
+        @Html.TextBoxFor(a => a.MachineNO, new { @class = "form-control " })
+        @Html.ValidationMessageFor(a => a.MachineNO)
+    </div>
+    <div class="form-group">
+        <label>Processor Type</label>
+        @Html.TextBoxFor(a => a.Processor_Type, new { @class = "form-control " })
+        @Html.ValidationMessageFor(a => a.Processor_Type)
+    </div>
+    <div class="form-group">
+        <label>Motherboard Model</label>
+        @Html.TextBoxFor(a => a.Motherboard_ID, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.Motherboard_ID)
+    </div>
+    <div class="form-group">
+        <label>Power Supply ID</label>
+        @Html.TextBoxFor(a => a.PowerSupply_ID, new { @class = "form-control " })
+        @Html.ValidationMessageFor(a => a.PowerSupply_ID)
+    </div>
+    <div class="form-group">
+        <label>RAM Capacity</label>
+        @Html.TextBoxFor(a => a.RAM_Capacity, new { @class = "form-control " })
+        @Html.ValidationMessageFor(a => a.RAM_Capacity)
+    </div>
+    <div class="form-group">
+        <label>HDD Capacity</label>
+        @Html.TextBoxFor(a => a.HDD_Capacity, new { @class = "form-control " })
+        @Html.ValidationMessageFor(a => a.HDD_Capacity)
+    </div>
+
+    <div class="wrapper">
+        <input type="submit" class="btn btn-primary btn-lg" value="Save" />
+        <br />  <br />  <br />  <br />
+
+    </div>
+}

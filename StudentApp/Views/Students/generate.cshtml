@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewBag.Title = "generate";
+}
+
+<h2>Generate Reports</h2>
+
+@Html.ActionLink("Generate Report in PDF", "Reports", new { ReportType = "PDF" }) <br />
+@Html.ActionLink("Generate Report in Excel", "Reports", new { ReportType = "Excel" })

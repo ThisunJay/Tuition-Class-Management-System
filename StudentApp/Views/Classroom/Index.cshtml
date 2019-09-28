@@ -1,0 +1,213 @@
+﻿@model IEnumerable<StudentApp.Models.classroom>
+
+
+@{
+    ViewBag.Title = "Index";
+
+
+    List<SelectListItem> Ac_li = new List<SelectListItem>();
+
+    Ac_li.Add(new SelectListItem() { Text = "Non" });
+    Ac_li.Add(new SelectListItem() { Text = "Ac" });
+
+
+
+    List<SelectListItem> Floor_li = new List<SelectListItem>();
+
+    Floor_li.Add(new SelectListItem() { Text = "P0" });
+    Floor_li.Add(new SelectListItem() { Text = "P1" });
+    Floor_li.Add(new SelectListItem() { Text = "P2" });
+    Floor_li.Add(new SelectListItem() { Text = "P3" });
+    Floor_li.Add(new SelectListItem() { Text = "S0" });
+    Floor_li.Add(new SelectListItem() { Text = "S1" });
+    Floor_li.Add(new SelectListItem() { Text = "S2" });
+    Floor_li.Add(new SelectListItem() { Text = "S3" });
+    Floor_li.Add(new SelectListItem() { Text = "S4" });
+
+
+}
+
+
+
+<style>
+
+    #table_css {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        #table_css td, #table_css th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #table_css tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #table_css tr:hover {
+            background-color: #ddd;
+        }
+
+        #table_css th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #00d87c;
+            color: white;
+        }
+</style>
+
+
+
+
+
+
+<h2>Classrooms</h2>
+
+<ul class="nav nav-tabs">
+    <li class="active"><a href="../Classroom/Index">Classrooms</a></li>
+    <li><a href="../Classroom/Create">Create New</a></li>
+
+
+
+
+    <li><a href="../Classroom/view2">Pubudu Institute</a></li>
+    <li><a href="../Classroom/view3">Sipsewana Institute</a></li>
+
+
+
+    <!--
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Locations
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="../Classroom/view2">Pubudu Institute</a></li>
+            <li><a href="../Classroom/view3">Sipsewana Institute</a></li>
+
+        </ul>
+    </li>
+    -->
+
+
+    <li><a href="../Allocation/Index">Allocations</a></li>
+</ul>
+
+
+<br />
+
+<button class="button">
+    <img src="~/img/s5.png" width="20px" />@Html.ActionLink("Generate ClassRoom Report", "Reports", new { ReportType = "PDF" })
+</button>
+
+<div class="row">
+    <div class="col-sm-3 col-md-3">
+
+        <p>
+            @using (Html.BeginForm("Index", "Classroom/Index", FormMethod.Get))
+            {
+                <h3>Search</h3>
+
+            <p>
+                Location:
+                @Html.DropDownList("Location", null, new { @class = "form-control" })
+            </p>
+            <p>
+                Floor:
+                @*Floor: (Ex:P0,P1..) @Html.TextBox("F_Name", null, new { @class = "form-control" })*@
+                @Html.DropDownList("F_Name", Floor_li, new { @class = "form-control" })
+            <p class="help-block"><font size="1">Hint: Pubudu: P0,P1,P2,P3  Sipsewana: S0,S1,S2,S3,S4.</font></p>
+
+
+            </p>
+            <p>
+                Name: (Ex:P11,P12..) @Html.TextBox("C_Name", null, new { @class = "form-control" })
+            </p>
+            <p>
+                Ac/Non:
+                @*@Html.TextBox("AcNon", null, new { @class = "form-control" })*@
+                @Html.DropDownList("AcNon", Ac_li, new { @class = "form-control" })
+
+            </p>
+
+            <p class="help-block">Hint : Fill all data before attempt to search classrooms. </p>
+                    <p class="help-block">*Leave class name column empty to filter all classes. </p>
+                    <p class="help-block">*select floor after changing the location </p>
+
+            <p>
+                <button type="submit" class="btn btn-primary mb-2" value="Filter">Filter</button>
+            </p>
+        }
+
+        </div>
+        <div class="col-sm-3 col-md-9">
+
+            <table id="table_css">
+                <tr>
+                    <th>
+                        @*@Html.DisplayNameFor(model => model.class_id)*@  Class ID
+                    </th>
+                    <th>
+                        @*@Html.DisplayNameFor(model => model.max)*@ Max Students
+                    </th>
+                    <th>
+                        @*@Html.DisplayNameFor(model => model.min)*@ Min Students
+                    </th>
+                    <th>
+                        @*@Html.DisplayNameFor(model => model.location)*@ Location
+                    </th>
+                    <th>
+                        @*@Html.DisplayNameFor(model => model.name)*@ Class Name
+                    </th>
+                    <th>
+                        @*@Html.DisplayNameFor(model => model.ac_nonac)*@ Ac/Non
+                    </th>
+                    <th>
+                        Action
+
+                    </th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.class_id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.max)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.min)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.location)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ac_nonac)
+                        </td>
+
+                        <td>
+
+                            @Html.ActionLink("Edit", "Edit", new { id = item.class_id }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.class_id }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.class_id })
+                        </td>
+
+                    </tr>
+                }
+
+            </table>
+
+            <div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+
+        </div>
+    </div>

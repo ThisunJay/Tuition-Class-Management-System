@@ -1,0 +1,162 @@
+﻿@model StudentApp.Models.Student
+@{
+    ViewBag.Title = "StudentProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Html.Raw(TempData["LoginSuccessmessage"])
+
+
+
+<style>
+
+
+    /*---------------------------services---------------------------*/
+    #services {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #testimonials .row {
+        margin-top: 30px;
+    }
+
+    .col-md-4 {
+        margin: 40px auto;
+    }
+
+    .profile {
+        padding: 30px 10px 30px;
+        background-color: #efefef;
+    }
+
+
+
+
+
+        .profile h3 {
+            font-size: 20px;
+            margin-top: 15px;
+            color: #007bff;
+        }
+
+
+    #testimonials span {
+        font-size: 12px;
+        color: #333;
+    }
+
+    blockquote {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+        blockquote::before {
+            content: '\93';
+            font-size: 50px;
+            color: #007bff;
+            position: relative;
+            line-height: 20px;
+            bottom: -15px;
+            right: 5px;
+        }
+
+        blockquote::after {
+            content: '\94';
+            font-size: 50px;
+            color: #007bff;
+            position: relative;
+            line-height: 10px;
+            bottom: -15px;
+            left: 5px;
+        }
+
+    .profile:hover {
+        box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    </style>
+
+<div style="text-align:right">
+    <h3>Welcome @Session["Username"]</h3>
+
+    <h4>@Html.ActionLink("Logout", "Logout", "StudentProfile")</h4>
+</div>
+<hr width="500px" />
+
+<br />
+
+
+
+
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="profile">
+
+                    <div>
+                        <h3><span> Search Your Marks Here </span></h3>
+                        <blockquote>
+                           Janaka sir's marks out here. search here for your marks
+                        </blockquote>
+                        @Html.ActionLink("Marks here", "../Marks/Search")
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="profile">
+                    <h3><span>Search Notifications here</span></h3>
+                    <blockquote>
+                        There is a special notice for you. click below and visit notifications
+
+                    </blockquote>
+                    @Html.ActionLink("Notifications here", "../Notification/StuNotifyView")
+
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="profile">
+                    <h3><span> Courses</span></h3>
+                    <blockquote>
+                        We are here to teach programming.we have 100 lectureres 1000 lectures and 500 softwares.
+                        
+                    </blockquote>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr width="500px" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

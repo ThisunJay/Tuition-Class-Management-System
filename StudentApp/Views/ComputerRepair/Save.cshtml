@@ -1,0 +1,62 @@
+﻿@model StudentApp.Models.repair
+
+
+
+@{
+    /**/
+
+    Layout = null;
+}
+<style>
+    .wrapper {
+        text-align: center;
+    }
+</style>
+
+
+<h2>Save</h2>
+
+@using (Html.BeginForm("save", "ComputerRepair", FormMethod.Post, new { id = "popupForm" }))
+{
+
+
+    if (Model != null && Model.MachineNO > 0)
+    {
+        @Html.HiddenFor(a => a.repair_id)
+
+    }
+
+    <div class="form-group">
+        <label>Machine No</label>
+        @Html.TextBoxFor(a => a.MachineNO, new { @class = "form-control " })
+        @Html.ValidationMessageFor(a => a.MachineNO)
+    </div>
+
+    <div class="form-group">
+        <label>Cost</label>
+        <div class="input-gruop">
+            <span class="input-gruop-addon">Rs</span>
+            @Html.TextBoxFor(a => a.cost, new { @class = "form-control " })
+            @Html.ValidationMessageFor(a => a.cost)
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Description</label>
+        @Html.TextBoxFor(a => a.description, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.description)
+    </div>
+    <div class="form-group">
+        <label>Date(MM/DD/YY)</label>
+        @Html.TextBoxFor(a => a.repair_date, new { @class = "form-control " })
+        @Html.ValidationMessageFor(a => a.repair_date)
+    </div>
+
+
+    <div class="wrapper">
+        <input type="submit" class="btn btn-primary btn-lg" value="Save" />
+        <br />  <br />
+    </div>
+}
+

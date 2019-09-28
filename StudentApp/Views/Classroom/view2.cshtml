@@ -1,0 +1,253 @@
+﻿@model StudentApp.Models.classroom
+
+@{
+    ViewBag.Title = "view2";
+}
+
+
+<h2>Pubudu Institute</h2>
+
+<ul class="nav nav-tabs">
+    <li><a href="../../Classroom/Index">Classrooms</a></li>
+    <li><a href="../Classroom/Create">Create New</a></li>
+
+
+
+
+    <li class="active"><a href="../Classroom/view2">Pubudu Institute</a></li>
+    <li><a href="../../Classroom/view3">Sipsewana Institute</a></li>
+
+
+
+    <!--
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Locations
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="../../Classroom/view2">Pubudu Institute</a></li>
+            <li><a href="../../Classroom/view3">Sipsewana Institute</a></li>
+
+        </ul>
+    </li>
+    -->
+
+
+    <li><a href="../../Allocation/Index">Allocations</a></li>
+</ul>
+
+
+<div class="row">
+
+    <div class="col-sm-1 col-md-8">
+        <br />
+        <div class="row">
+            <div class="col-sm-1 col-md-4">
+                <p>
+                    Address:
+                    Pubudu Institute,
+                    No.24/2,Main Street,Ambalanthota
+                </p>
+            </div>
+            <div class="col-sm-1 col-md-4">
+                <p>
+                    Contact: 071-2303299
+                </p>
+            </div>
+        </div>
+        <br />
+        <div class="container-fluid">
+            <div class="row">
+
+
+                <div class="row">
+
+                    <div class="col-sm-1" style="height:40px ;background-color:cyan;">@Html.ActionLink("P31", "view2", new { id = 28 })</div>
+                    <div class="col-sm-1" style="height:40px ;background-color:blueviolet;">@Html.ActionLink("P32", "view2", new { id = 29 })</div>
+                    <div class="col-sm-1" style="height:40px ;background-color:cyan;">@Html.ActionLink("P33", "view2", new { id = 30 })</div>
+                    <div class="col-sm-1" style="height:40px ;background-color:blueviolet">@Html.ActionLink("P34", "view2", new { id = 11 })</div>
+                    <div class="col-sm-1" style="height:40px ;background-color:cyan;">@Html.ActionLink("P35", "view2", new { id = 13 })</div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-1" style="height:40px ;background-color:aquamarine;">@Html.ActionLink("P21", "view2", new { id = 23 })</div>
+                    <div class="col-sm-4" style="height:40px ;background-color:deepskyblue;">@Html.ActionLink("P22", "view2", new { id = 9 })</div>
+                    <div class="col-sm-3" style="height:40px ;background-color:aquamarine;">@Html.ActionLink("P23", "view2", new { id = 27 })</div>
+                    <div class="col-sm-1" style="height:40px ;background-color:deepskyblue;">@Html.ActionLink("P24", "view2", new { id = 12 })</div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-1" style="height:40px ;background-color:cyan;">@Html.ActionLink("P11", "view2", new { id = 6 })</div>
+                    <div class="col-sm-1" style="height:40px ;background-color:blueviolet;">@Html.ActionLink("P12", "view2", new { id = 8 })</div>
+                    <div class="col-sm-1" style="height:40px ;background-color:cyan;">@Html.ActionLink("P13", "view2", new { id = 16 })</div>
+                    <div class="col-sm-1" style="height:40px ;background-color:blueviolet">@Html.ActionLink("P14", "view2", new { id = 22 })</div>
+                    <div class="col-sm-1" style="height:40px ;background-color:cyan;">@Html.ActionLink("P15", "view2", new { id = 24 })</div>
+                    <div class="col-sm-3" style="height:40px ;background-color:blueviolet;">@Html.ActionLink("P16", "view2", new { id = 25 })</div>
+                    <div class="col-sm-1" style="height:40px ;background-color:cyan;">@Html.ActionLink("P17", "view2", new { id = 26 })</div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-1" style="height:40px ;background-color:aquamarine;">@Html.ActionLink("P01", "view2", new { id = 1 })</div>
+                    <div class="col-sm-1" style="height:40px ;background-color:deepskyblue;">@Html.ActionLink("P02", "view2", new { id = 19 })</div>
+                    <div class="col-sm-3" style="height:40px ;background-color:aquamarine;">@Html.ActionLink("P03", "view2", new { id = 20 })</div>
+                    <div class="col-sm-3" style="height:40px ;background-color:deepskyblue;">@Html.ActionLink("P04", "view2", new { id = 21 })</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div>
+            <br />
+            <p class="help-block">
+                Description: This View shows the building Layout of the Pubudu Institute.
+                Click on the class names to see details.
+            </p>
+            <p class="help-block">
+                Click on the class names to see details.
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <div class="col-sm-3 col-md-4">
+
+        @*<div class="form-horizontal">
+
+                <h1>  @Html.DisplayFor(model => model.name)</h1>
+
+                <hr />
+                <dl class="dl-horizontal">
+                    <dt>
+                        <Label class="control-label col-md-2">Maximum</Label>
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.max)
+                    </dd>
+
+                    <dt>
+                        <Label class="control-label col-md-2">Minimum</Label>
+
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.min)
+                    </dd>
+
+                    <dt>
+                        <Label class="control-label col-md-2">Location</Label>
+
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.location)
+                    </dd>
+
+                    <dt>
+                        <Label class="control-label col-md-2">Name</Label>
+
+
+                    <dd>
+                        @Html.DisplayFor(model => model.name)
+                    </dd>
+
+                    <dt>
+                        <Label class="control-label col-md-2">Ac/Non</Label>
+
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.ac_nonac)
+                    </dd>
+
+                </dl>
+            </div>*@
+
+
+        @*classroom_view2_view3*@
+
+
+        <div class="row">
+            <div class="col-sm-3 col-md-10">
+                <div class="thumbnail">
+                    <img width="220" height="220" src="~/img/classroom_view2_view3.jpg" alt="...">
+                    <div class="caption">
+                        <p>
+                            <h3> Class Name: @Html.DisplayFor(model => model.name)</h3>
+                            <hr />
+                            <dl class="dl-horizontal">
+                                <dt>
+                                    <Label class="control-label col-md-2">Maximum</Label>
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.max)
+                                </dd>
+
+                                <dt>
+                                    <Label class="control-label col-md-2">Minimum</Label>
+
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.min)
+                                </dd>
+
+                                <dt>
+                                    <Label class="control-label col-md-2">Location</Label>
+
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.location)
+                                </dd>
+
+                                <dt>
+                                    <Label class="control-label col-md-2">Name</Label>
+
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.name)
+                                </dd>
+
+                                <dt>
+                                    <Label class="control-label col-md-2">Ac/Non</Label>
+
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.ac_nonac)
+                                </dd>
+
+                            </dl>
+                        </p>
+
+                        <hr />
+
+                        <div>
+                            @Html.ActionLink("Back to List", "Index")
+                        </div>
+
+                        @*<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

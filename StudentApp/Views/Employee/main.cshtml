@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewBag.Title = "main";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="jumbotron">
+    <center>
+        <h1><b>Pubudu Education Centre</b></h1>
+        <h2>Employee Management</h2>
+    </center>
+</div>
+
+<style>
+    h4 {
+        text-align:center;
+    }
+</style>
+
+<div style="background-color: #f1f2f6; text-align: center; display: inline-block; margin: 0; padding: 5px 14px 5px 14px; border-radius: 8px">
+    <h4>@Html.ActionLink("Logout", "Logout", "Home")</h4></div>
+<div style="background-color: #f1f2f6; text-align: center; display: inline-block; margin: 0; padding: 5px 14px 5px 14px; border-radius: 8px">
+    <h4>@Html.ActionLink("Admin View", "AdminView", "Admin")</h4></div>
+<br />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 33%;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+            margin-bottom: 3px;
+            margin-left: 3px;
+            opacity: 1;
+            transition: 0.3s;
+        }
+
+            .column:hover {
+                opacity: 0.6;
+            }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        h3 {
+            font-weight: bold;
+        }
+
+        #ani {
+            background: #DAD299; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #B0DAB9, #DAD299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+    </style>
+
+    <div class="row" style="margin-left: 0px !important">
+
+        <a href="@Url.Action("EmployeeView", "Employee")">
+            <div class="column" style="background-color:#c56cf0; text-align: center" id="ani">
+                <h3 style="margin-left: auto">View Employee List</h3><br />
+                <img src="~/img/employeelist.png" style="display: block; height: 150px; width: 150px; margin: auto auto auto auto" />
+            </div>
+        </a>
+        <a href="@Url.Action("Create", "Employee")">
+            <div class="column" style="background-color:#c56cf0; text-align: center" id="ani">
+                <h3 style="margin-left: auto">Add new Employee</h3><br />
+                <img src="~/img/addEmployee.png" style="display: block; height: 150px; width: 150px; margin: auto auto auto auto" />
+            </div>
+        </a>
+        <a href="@Url.Action("Create", "EmployeeAttendance")">
+            <div class="column" style="background-color:#c56cf0; text-align: center" id="ani">
+                <h3 style="margin-left: auto">Mark Employee Attendence</h3><br />
+                <img src="~/img/markEmpAtt.png" style="display: block; height: 150px; width: 150px; margin: auto auto auto auto" />
+            </div>
+        </a>
+
+    </div>
+
+    <div class="row" style="margin-left: 0px !important">
+
+        <a href="@Url.Action("seeAttendance", "EmployeeAttendance")">
+            <div class="column" style="background-color:#c56cf0; text-align: center" id="ani">
+                <h3 style="margin-left: auto">Search Attendance</h3><br />
+                <img src="~/img/searchAtt.png" style="display: block; height: 150px; width: 150px; margin: auto auto auto auto" />
+            </div>
+        </a>
+
+        <a href="@Url.Action("Index", "EmployeeAttendance")">
+            <div class="column" style="background-color:#c56cf0; text-align: center" id="ani">
+                <h3 style="margin-left: auto">View today's Attendance</h3><br />
+                <img src="~/img/viewAtt.png" style="display: block; height: 150px; width: 150px; margin: auto auto auto auto" />
+            </div>
+        </a>
+
+        <div class="column" style="background-color:#c56cf0; text-align: center" id="ani">
+            <h3 style="margin-left: auto">Generate Report</h3><br />
+            @Html.ActionLink("Generate Report in PDF", "Reports", new { ReportType = "PDF" })
+            <br />
+            @Html.ActionLink("Generate Report in Excel", "Reports", new { ReportType = "Excel" })
+        </div>
+
+    </div>

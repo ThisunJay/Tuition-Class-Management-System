@@ -1,0 +1,81 @@
+﻿@model IEnumerable<StudentApp.Models.emp_attendence>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    #customers {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #0a3d62;
+            color: white;
+        }
+
+    .logoutbtn {
+        background-color: #353b48;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        padding: 8px 11px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+</style>
+
+<h2>Today's Attendance</h2>
+
+<button class="button">
+    <img src="~/img/s5.png" width="20px" />@Html.ActionLink("Generate Today's Attendance Report", "Reports", new { ReportType = "PDF" })
+</button>
+
+<table class="table" id="customers">
+    <tr>
+        <th>
+            <b>Date</b>
+        </th>
+        <th>
+            <b>Employee Name</b>
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        
+        <tr>
+            <td>
+                @DateTime.Parse(Html.DisplayFor(modelItem => item.date).ToString()).ToShortDateString()
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.employee.full_name)
+            </td>
+        </tr>
+        
+    }
+
+</table>

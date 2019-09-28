@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TMSDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Allocations">
+    <Key>
+      <PropertyRef Name="ca_id" />
+    </Key>
+    <Property Name="ca_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="day" Type="varchar" MaxLength="20" />
+    <Property Name="start_time" Type="varchar" MaxLength="10" />
+    <Property Name="end_time" Type="varchar" MaxLength="10" />
+    <Property Name="t_id" Type="varchar" MaxLength="10" />
+    <Property Name="class_id" Type="varchar" MaxLength="10" />
+    <Property Name="sub_id" Type="varchar" MaxLength="10" />
+    <Property Name="no_of_students" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Bills">
+    <Key>
+      <PropertyRef Name="billId" />
+    </Key>
+    <Property Name="billId" Type="int" Nullable="false" />
+    <Property Name="type" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+    <Property Name="amount" Type="float" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="classroom">
+    <Key>
+      <PropertyRef Name="class_id" />
+    </Key>
+    <Property Name="class_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="max" Type="int" />
+    <Property Name="min" Type="int" />
+    <Property Name="location" Type="varchar" MaxLength="20" />
+    <Property Name="name" Type="varchar" MaxLength="20" />
+    <Property Name="ac_nonac" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="classrooms">
+    <Key>
+      <PropertyRef Name="class_id" />
+    </Key>
+    <Property Name="class_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="max" Type="int" />
+    <Property Name="min" Type="int" />
+    <Property Name="location" Type="varchar" MaxLength="20" />
+    <Property Name="name" Type="varchar" MaxLength="20" />
+    <Property Name="ac_nonac" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="computer">
+    <Key>
+      <PropertyRef Name="MachineNO" />
+    </Key>
+    <Property Name="LabNo" Type="int" Nullable="false" />
+    <Property Name="MachineNO" Type="int" Nullable="false" />
+    <Property Name="Processor_Type" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="Motherboard_ID" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="PowerSupply_ID" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="RAM_Capacity" Type="nvarchar" MaxLength="9" Nullable="false" />
+    <Property Name="HDD_Capacity" Type="nvarchar" MaxLength="9" Nullable="false" />
+  </EntityType>
+  <EntityType Name="emp_attendence">
+    <Key>
+      <PropertyRef Name="att_id" />
+    </Key>
+    <Property Name="att_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="emp_id" Type="int" />
+  </EntityType>
+  <EntityType Name="employees">
+    <Key>
+      <PropertyRef Name="emp_id" />
+    </Key>
+    <Property Name="emp_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="full_name" Type="varchar" MaxLength="100" />
+    <Property Name="salary" Type="float" />
+    <Property Name="birthday" Type="datetime" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="contact_num" Type="char" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="exams">
+    <Key>
+      <PropertyRef Name="exam_id" />
+    </Key>
+    <Property Name="exam_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="exam_title" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="fund_info">
+    <Key>
+      <PropertyRef Name="f_id" />
+    </Key>
+    <Property Name="f_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="epf_rate" Type="int" />
+    <Property Name="etf_rate" Type="int" />
+    <Property Name="amount" Type="float" />
+  </EntityType>
+  <EntityType Name="Invoices">
+    <Key>
+      <PropertyRef Name="invoiceId" />
+    </Key>
+    <Property Name="invoiceId" Type="int" Nullable="false" />
+    <Property Name="from" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+    <Property Name="amount" Type="float" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="60" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lab">
+    <Key>
+      <PropertyRef Name="LabNo" />
+    </Key>
+    <Property Name="LabNo" Type="int" Nullable="false" />
+    <Property Name="floor" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="marksInfo">
+    <Key>
+      <PropertyRef Name="m_id" />
+    </Key>
+    <Property Name="m_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sub_id" Type="int" />
+    <Property Name="e_id" Type="int" />
+    <Property Name="stu_id" Type="int" />
+    <Property Name="marks" Type="int" />
+  </EntityType>
+  <EntityType Name="notify">
+    <Key>
+      <PropertyRef Name="n_id" />
+    </Key>
+    <Property Name="n_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="100" />
+    <Property Name="descript" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="repair">
+    <Key>
+      <PropertyRef Name="repair_id" />
+    </Key>
+    <Property Name="MachineNO" Type="int" Nullable="false" />
+    <Property Name="repair_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cost" Type="float" />
+    <Property Name="description" Type="varchar" MaxLength="100" />
+    <Property Name="repair_date" Type="date" />
+  </EntityType>
+  <EntityType Name="student_attendence">
+    <Key>
+      <PropertyRef Name="att_id" />
+    </Key>
+    <Property Name="att_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="stu_id" Type="int" />
+  </EntityType>
+  <EntityType Name="student_subject">
+    <Key>
+      <PropertyRef Name="subjects_sub_id" />
+      <PropertyRef Name="Students_Id" />
+    </Key>
+    <Property Name="subjects_sub_id" Type="int" Nullable="false" />
+    <Property Name="Students_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="student_tute">
+    <Key>
+      <PropertyRef Name="st_id" />
+      <PropertyRef Name="tute_id" />
+    </Key>
+    <Property Name="st_id" Type="int" Nullable="false" />
+    <Property Name="tute_id" Type="int" Nullable="false" />
+    <Property Name="t_mark" Type="int" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Full_Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="School" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Division" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Contact_No" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Parent_Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Parent_Mobile" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Parent_Work" Type="char" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="subject_exam">
+    <Key>
+      <PropertyRef Name="sub_id" />
+      <PropertyRef Name="exam_id" />
+    </Key>
+    <Property Name="sub_id" Type="int" Nullable="false" />
+    <Property Name="exam_id" Type="int" Nullable="false" />
+    <Property Name="e_mark" Type="int" />
+  </EntityType>
+  <EntityType Name="subjects">
+    <Key>
+      <PropertyRef Name="sub_id" />
+    </Key>
+    <Property Name="sub_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="20" />
+    <Property Name="grade" Type="int" />
+  </EntityType>
+  <EntityType Name="Taxes">
+    <Key>
+      <PropertyRef Name="taxId" />
+    </Key>
+    <Property Name="taxId" Type="int" Nullable="false" />
+    <Property Name="type" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+    <Property Name="amount" Type="float" Nullable="false" />
+    <Property Name="descrption" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="teachers">
+    <Key>
+      <PropertyRef Name="t_id" />
+    </Key>
+    <Property Name="t_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="full_name" Type="varchar" MaxLength="100" />
+    <Property Name="school" Type="varchar" MaxLength="100" />
+    <Property Name="division" Type="varchar" MaxLength="10" />
+    <Property Name="t_address" Type="varchar" MaxLength="50" />
+    <Property Name="contact_number" Type="char" MaxLength="10" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="fees" Type="int" />
+    <Property Name="noStudents" Type="int" />
+  </EntityType>
+  <EntityType Name="tuteinfo">
+    <Key>
+      <PropertyRef Name="Tute_id" />
+    </Key>
+    <Property Name="Tute_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tutename" Type="varchar" MaxLength="100" />
+    <Property Name="Student_id" Type="varchar" MaxLength="50" />
+    <Property Name="Marks" Type="int" />
+  </EntityType>
+  <EntityType Name="tutes">
+    <Key>
+      <PropertyRef Name="tute_id" />
+    </Key>
+    <Property Name="tute_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="20" />
+    <Property Name="upload_date" Type="datetime" />
+    <Property Name="t_id" Type="int" />
+    <Property Name="sub_id" Type="int" />
+  </EntityType>
+  <EntityType Name="Tutes1">
+    <Key>
+      <PropertyRef Name="Tute_id" />
+    </Key>
+    <Property Name="Tute_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tute_title" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sub_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Teacher_name_" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="UserId_" />
+    </Key>
+    <Property Name="UserId_" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName_" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password_" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="IsActive_" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__emp_atten__emp_i__65F62111">
+    <End Role="employees" Type="Self.employees" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="emp_attendence" Type="Self.emp_attendence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employees">
+        <PropertyRef Name="emp_id" />
+      </Principal>
+      <Dependent Role="emp_attendence">
+        <PropertyRef Name="emp_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__marksInfo__e_id__79FD19BE">
+    <End Role="exams" Type="Self.exams" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="marksInfo" Type="Self.marksInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="exams">
+        <PropertyRef Name="exam_id" />
+      </Principal>
+      <Dependent Role="marksInfo">
+        <PropertyRef Name="e_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__marksInfo__stu_i__3FD07829">
+    <End Role="Students" Type="Self.Students" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="marksInfo" Type="Self.marksInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="marksInfo">
+        <PropertyRef Name="stu_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__marksInfo__sub_i__7908F585">
+    <End Role="subjects" Type="Self.subjects" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="marksInfo" Type="Self.marksInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subjects">
+        <PropertyRef Name="sub_id" />
+      </Principal>
+      <Dependent Role="marksInfo">
+        <PropertyRef Name="sub_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__student_a__stu_i__2CBDA3B5">
+    <End Role="Students" Type="Self.Students" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="student_attendence" Type="Self.student_attendence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="student_attendence">
+        <PropertyRef Name="stu_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tute__sub_id__4222D4EF">
+    <End Role="subjects" Type="Self.subjects" Multiplicity="0..1" />
+    <End Role="tutes" Type="Self.tutes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subjects">
+        <PropertyRef Name="sub_id" />
+      </Principal>
+      <Dependent Role="tutes">
+        <PropertyRef Name="sub_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tute__t_id__412EB0B6">
+    <End Role="teachers" Type="Self.teachers" Multiplicity="0..1" />
+    <End Role="tutes" Type="Self.tutes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="teachers">
+        <PropertyRef Name="t_id" />
+      </Principal>
+      <Dependent Role="tutes">
+        <PropertyRef Name="t_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_student_subject_Students">
+    <End Role="Students" Type="Self.Students" Multiplicity="1" />
+    <End Role="student_subject" Type="Self.student_subject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="student_subject">
+        <PropertyRef Name="Students_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_student_subject_subject">
+    <End Role="subjects" Type="Self.subjects" Multiplicity="1" />
+    <End Role="student_subject" Type="Self.student_subject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subjects">
+        <PropertyRef Name="sub_id" />
+      </Principal>
+      <Dependent Role="student_subject">
+        <PropertyRef Name="subjects_sub_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TMSDBModelStoreContainer">
+    <EntitySet Name="Allocations" EntityType="Self.Allocations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Bills" EntityType="Self.Bills" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="classroom" EntityType="Self.classroom" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="classrooms" EntityType="Self.classrooms" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="computer" EntityType="Self.computer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="emp_attendence" EntityType="Self.emp_attendence" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employees" EntityType="Self.employees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="exams" EntityType="Self.exams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="fund_info" EntityType="Self.fund_info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Invoices" EntityType="Self.Invoices" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lab" EntityType="Self.lab" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="marksInfo" EntityType="Self.marksInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="notify" EntityType="Self.notify" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="repair" EntityType="Self.repair" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="student_attendence" EntityType="Self.student_attendence" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="student_subject" EntityType="Self.student_subject" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="student_tute" EntityType="Self.student_tute" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Students" EntityType="Self.Students" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="subject_exam" EntityType="Self.subject_exam" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="subjects" EntityType="Self.subjects" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Taxes" EntityType="Self.Taxes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="teachers" EntityType="Self.teachers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tuteinfo" EntityType="Self.tuteinfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tutes" EntityType="Self.tutes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tutes1" EntityType="Self.Tutes1" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__emp_atten__emp_i__65F62111" Association="Self.FK__emp_atten__emp_i__65F62111">
+      <End Role="employees" EntitySet="employees" />
+      <End Role="emp_attendence" EntitySet="emp_attendence" />
+    </AssociationSet>
+    <AssociationSet Name="FK__marksInfo__e_id__79FD19BE" Association="Self.FK__marksInfo__e_id__79FD19BE">
+      <End Role="exams" EntitySet="exams" />
+      <End Role="marksInfo" EntitySet="marksInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK__marksInfo__stu_i__3FD07829" Association="Self.FK__marksInfo__stu_i__3FD07829">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="marksInfo" EntitySet="marksInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK__marksInfo__sub_i__7908F585" Association="Self.FK__marksInfo__sub_i__7908F585">
+      <End Role="subjects" EntitySet="subjects" />
+      <End Role="marksInfo" EntitySet="marksInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK__student_a__stu_i__2CBDA3B5" Association="Self.FK__student_a__stu_i__2CBDA3B5">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="student_attendence" EntitySet="student_attendence" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tute__sub_id__4222D4EF" Association="Self.FK__tute__sub_id__4222D4EF">
+      <End Role="subjects" EntitySet="subjects" />
+      <End Role="tutes" EntitySet="tutes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tute__t_id__412EB0B6" Association="Self.FK__tute__t_id__412EB0B6">
+      <End Role="teachers" EntitySet="teachers" />
+      <End Role="tutes" EntitySet="tutes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_student_subject_Students" Association="Self.FK_student_subject_Students">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="student_subject" EntitySet="student_subject" />
+    </AssociationSet>
+    <AssociationSet Name="FK_student_subject_subject" Association="Self.FK_student_subject_subject">
+      <End Role="subjects" EntitySet="subjects" />
+      <End Role="student_subject" EntitySet="student_subject" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

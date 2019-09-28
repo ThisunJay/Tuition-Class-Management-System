@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StudentApp.Models" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Full_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="School" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Division" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Contact_No" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Parent_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Parent_Mobile" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Parent_Work" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="student_tute" Relationship="StudentApp.Models.FK__student_t__st_id__4F7CD00D" FromRole="Student" ToRole="student_tute" />
+    <NavigationProperty Name="subjects" Relationship="StudentApp.Models.student_subject" FromRole="Student" ToRole="subject" />
+  </EntityType>
+  <EntityContainer Name="TMSDBEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <EntitySet Name="bills" EntityType="StudentApp.Models.bill" />
+    <EntitySet Name="classrooms" EntityType="StudentApp.Models.classroom" />
+    <EntitySet Name="classroom_allocation_data" EntityType="StudentApp.Models.classroom_allocation_data" />
+    <EntitySet Name="computers" EntityType="StudentApp.Models.computer" />
+    <EntitySet Name="emp_attendence" EntityType="StudentApp.Models.emp_attendence" />
+    <EntitySet Name="employees" EntityType="StudentApp.Models.employee" />
+    <EntitySet Name="exams" EntityType="StudentApp.Models.exam" />
+    <EntitySet Name="fund_info" EntityType="StudentApp.Models.fund_info" />
+    <EntitySet Name="invoices" EntityType="StudentApp.Models.invoice" />
+    <EntitySet Name="labs" EntityType="StudentApp.Models.lab" />
+    <EntitySet Name="repairs" EntityType="StudentApp.Models.repair" />
+    <EntitySet Name="student_attendence" EntityType="StudentApp.Models.student_attendence" />
+    <EntitySet Name="student_tute" EntityType="StudentApp.Models.student_tute" />
+    <EntitySet Name="subjects" EntityType="StudentApp.Models.subject" />
+    <EntitySet Name="subject_exam" EntityType="StudentApp.Models.subject_exam" />
+    <EntitySet Name="taxes" EntityType="StudentApp.Models.tax" />
+    <EntitySet Name="teachers" EntityType="StudentApp.Models.teacher" />
+    <EntitySet Name="tutes" EntityType="StudentApp.Models.tute" />
+    <AssociationSet Name="FK__classroom__class__49C3F6B7" Association="StudentApp.Models.FK__classroom__class__49C3F6B7">
+      <End Role="classroom" EntitySet="classrooms" />
+      <End Role="classroom_allocation_data" EntitySet="classroom_allocation_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__classroom___t_id__48CFD27E" Association="StudentApp.Models.FK__classroom___t_id__48CFD27E">
+      <End Role="teacher" EntitySet="teachers" />
+      <End Role="classroom_allocation_data" EntitySet="classroom_allocation_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__classroom__sub_i__4AB81AF0" Association="StudentApp.Models.FK__classroom__sub_i__4AB81AF0">
+      <End Role="subject" EntitySet="subjects" />
+      <End Role="classroom_allocation_data" EntitySet="classroom_allocation_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__computer__lab_id__66603565" Association="StudentApp.Models.FK__computer__lab_id__66603565">
+      <End Role="lab" EntitySet="labs" />
+      <End Role="computer" EntitySet="computers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__emp_atten__emp_i__5FB337D6" Association="StudentApp.Models.FK__emp_atten__emp_i__5FB337D6">
+      <End Role="employee" EntitySet="employees" />
+      <End Role="emp_attendence" EntitySet="emp_attendence" />
+    </AssociationSet>
+    <AssociationSet Name="FK__employee__f_id__5CD6CB2B" Association="StudentApp.Models.FK__employee__f_id__5CD6CB2B">
+      <End Role="fund_info" EntitySet="fund_info" />
+      <End Role="employee" EntitySet="employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__subject_e__exam___5812160E" Association="StudentApp.Models.FK__subject_e__exam___5812160E">
+      <End Role="exam" EntitySet="exams" />
+      <End Role="subject_exam" EntitySet="subject_exam" />
+    </AssociationSet>
+    <AssociationSet Name="FK__student_t__st_id__4F7CD00D" Association="StudentApp.Models.FK__student_t__st_id__4F7CD00D">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="student_tute" EntitySet="student_tute" />
+    </AssociationSet>
+    <AssociationSet Name="FK__student_t__tute___5070F446" Association="StudentApp.Models.FK__student_t__tute___5070F446">
+      <End Role="tute" EntitySet="tutes" />
+      <End Role="student_tute" EntitySet="student_tute" />
+    </AssociationSet>
+    <AssociationSet Name="FK__subject_e__sub_i__571DF1D5" Association="StudentApp.Models.FK__subject_e__sub_i__571DF1D5">
+      <End Role="subject" EntitySet="subjects" />
+      <End Role="subject_exam" EntitySet="subject_exam" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tute__sub_id__4222D4EF" Association="StudentApp.Models.FK__tute__sub_id__4222D4EF">
+      <End Role="subject" EntitySet="subjects" />
+      <End Role="tute" EntitySet="tutes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tute__t_id__412EB0B6" Association="StudentApp.Models.FK__tute__t_id__412EB0B6">
+      <End Role="teacher" EntitySet="teachers" />
+      <End Role="tute" EntitySet="tutes" />
+    </AssociationSet>
+    <AssociationSet Name="student_subject" Association="StudentApp.Models.student_subject">
+      <End Role="subject" EntitySet="subjects" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="bill">
+    <Key>
+      <PropertyRef Name="bill_id" />
+    </Key>
+    <Property Name="bill_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="bill_type" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="amount" Type="Double" />
+  </EntityType>
+  <EntityType Name="classroom">
+    <Key>
+      <PropertyRef Name="class_id" />
+    </Key>
+    <Property Name="class_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="max" Type="Int32" />
+    <Property Name="min" Type="Int32" />
+    <Property Name="location" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ac_nonac" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="classroom_allocation_data" Relationship="StudentApp.Models.FK__classroom__class__49C3F6B7" FromRole="classroom" ToRole="classroom_allocation_data" />
+  </EntityType>
+  <EntityType Name="classroom_allocation_data">
+    <Key>
+      <PropertyRef Name="ca_id" />
+    </Key>
+    <Property Name="ca_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="day" Type="DateTime" Precision="0" />
+    <Property Name="start_time" Type="Time" Precision="7" />
+    <Property Name="end_time" Type="Time" Precision="7" />
+    <Property Name="t_id" Type="Int32" />
+    <Property Name="class_id" Type="Int32" />
+    <Property Name="sub_id" Type="Int32" />
+    <NavigationProperty Name="classroom" Relationship="StudentApp.Models.FK__classroom__class__49C3F6B7" FromRole="classroom_allocation_data" ToRole="classroom" />
+    <NavigationProperty Name="teacher" Relationship="StudentApp.Models.FK__classroom___t_id__48CFD27E" FromRole="classroom_allocation_data" ToRole="teacher" />
+    <NavigationProperty Name="subject" Relationship="StudentApp.Models.FK__classroom__sub_i__4AB81AF0" FromRole="classroom_allocation_data" ToRole="subject" />
+  </EntityType>
+  <EntityType Name="computer">
+    <Key>
+      <PropertyRef Name="com_id" />
+    </Key>
+    <Property Name="com_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="pro_type" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="hdd" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ram" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="power_supply_type" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="mother_board_type" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="lab_id" Type="Int32" />
+    <NavigationProperty Name="lab" Relationship="StudentApp.Models.FK__computer__lab_id__66603565" FromRole="computer" ToRole="lab" />
+  </EntityType>
+  <EntityType Name="emp_attendence">
+    <Key>
+      <PropertyRef Name="att_id" />
+    </Key>
+    <Property Name="att_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Precision="3" />
+    <Property Name="emp_id" Type="Int32" />
+    <NavigationProperty Name="employee" Relationship="StudentApp.Models.FK__emp_atten__emp_i__5FB337D6" FromRole="emp_attendence" ToRole="employee" />
+  </EntityType>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="emp_id" />
+    </Key>
+    <Property Name="emp_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="full_name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="salary" Type="Double" />
+    <Property Name="birthday" Type="DateTime" Precision="0" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="contact_num" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="f_id" Type="Int32" />
+    <NavigationProperty Name="emp_attendence" Relationship="StudentApp.Models.FK__emp_atten__emp_i__5FB337D6" FromRole="employee" ToRole="emp_attendence" />
+    <NavigationProperty Name="fund_info" Relationship="StudentApp.Models.FK__employee__f_id__5CD6CB2B" FromRole="employee" ToRole="fund_info" />
+  </EntityType>
+  <EntityType Name="exam">
+    <Key>
+      <PropertyRef Name="exam_id" />
+    </Key>
+    <Property Name="exam_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="exam_title" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="subject_exam" Relationship="StudentApp.Models.FK__subject_e__exam___5812160E" FromRole="exam" ToRole="subject_exam" />
+  </EntityType>
+  <EntityType Name="fund_info">
+    <Key>
+      <PropertyRef Name="f_id" />
+    </Key>
+    <Property Name="f_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="epf_rate" Type="Int32" />
+    <Property Name="etf_rate" Type="Int32" />
+    <Property Name="amount" Type="Double" />
+    <NavigationProperty Name="employees" Relationship="StudentApp.Models.FK__employee__f_id__5CD6CB2B" FromRole="fund_info" ToRole="employee" />
+  </EntityType>
+  <EntityType Name="invoice">
+    <Key>
+      <PropertyRef Name="in_id" />
+    </Key>
+    <Property Name="in_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="i_from" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="amount" Type="Double" />
+  </EntityType>
+  <EntityType Name="lab">
+    <Key>
+      <PropertyRef Name="lab_id" />
+    </Key>
+    <Property Name="lab_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="floor" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="computers" Relationship="StudentApp.Models.FK__computer__lab_id__66603565" FromRole="lab" ToRole="computer" />
+  </EntityType>
+  <EntityType Name="repair">
+    <Key>
+      <PropertyRef Name="repair_id" />
+    </Key>
+    <Property Name="repair_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cost" Type="Double" />
+    <Property Name="description" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="repair_date" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="student_attendence">
+    <Key>
+      <PropertyRef Name="att_id" />
+    </Key>
+    <Property Name="att_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="class" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="student_tute">
+    <Key>
+      <PropertyRef Name="st_id" />
+      <PropertyRef Name="tute_id" />
+    </Key>
+    <Property Name="st_id" Type="Int32" Nullable="false" />
+    <Property Name="tute_id" Type="Int32" Nullable="false" />
+    <Property Name="t_mark" Type="Int32" />
+    <NavigationProperty Name="Student" Relationship="StudentApp.Models.FK__student_t__st_id__4F7CD00D" FromRole="student_tute" ToRole="Student" />
+    <NavigationProperty Name="tute" Relationship="StudentApp.Models.FK__student_t__tute___5070F446" FromRole="student_tute" ToRole="tute" />
+  </EntityType>
+  <EntityType Name="subject">
+    <Key>
+      <PropertyRef Name="sub_id" />
+    </Key>
+    <Property Name="sub_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="grade" Type="Int32" />
+    <NavigationProperty Name="classroom_allocation_data" Relationship="StudentApp.Models.FK__classroom__sub_i__4AB81AF0" FromRole="subject" ToRole="classroom_allocation_data" />
+    <NavigationProperty Name="subject_exam" Relationship="StudentApp.Models.FK__subject_e__sub_i__571DF1D5" FromRole="subject" ToRole="subject_exam" />
+    <NavigationProperty Name="tutes" Relationship="StudentApp.Models.FK__tute__sub_id__4222D4EF" FromRole="subject" ToRole="tute" />
+    <NavigationProperty Name="Students" Relationship="StudentApp.Models.student_subject" FromRole="subject" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="subject_exam">
+    <Key>
+      <PropertyRef Name="sub_id" />
+      <PropertyRef Name="exam_id" />
+    </Key>
+    <Property Name="sub_id" Type="Int32" Nullable="false" />
+    <Property Name="exam_id" Type="Int32" Nullable="false" />
+    <Property Name="e_mark" Type="Int32" />
+    <NavigationProperty Name="exam" Relationship="StudentApp.Models.FK__subject_e__exam___5812160E" FromRole="subject_exam" ToRole="exam" />
+    <NavigationProperty Name="subject" Relationship="StudentApp.Models.FK__subject_e__sub_i__571DF1D5" FromRole="subject_exam" ToRole="subject" />
+  </EntityType>
+  <EntityType Name="tax">
+    <Key>
+      <PropertyRef Name="tax_id" />
+    </Key>
+    <Property Name="tax_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tax_type" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="amount" Type="Double" />
+  </EntityType>
+  <EntityType Name="teacher">
+    <Key>
+      <PropertyRef Name="t_id" />
+    </Key>
+    <Property Name="t_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="full_name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="school" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="division" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="t_address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="contact_number" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="classroom_allocation_data" Relationship="StudentApp.Models.FK__classroom___t_id__48CFD27E" FromRole="teacher" ToRole="classroom_allocation_data" />
+    <NavigationProperty Name="tutes" Relationship="StudentApp.Models.FK__tute__t_id__412EB0B6" FromRole="teacher" ToRole="tute" />
+  </EntityType>
+  <EntityType Name="tute">
+    <Key>
+      <PropertyRef Name="tute_id" />
+    </Key>
+    <Property Name="tute_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="upload_date" Type="DateTime" Precision="0" />
+    <Property Name="t_id" Type="Int32" />
+    <Property Name="sub_id" Type="Int32" />
+    <NavigationProperty Name="student_tute" Relationship="StudentApp.Models.FK__student_t__tute___5070F446" FromRole="tute" ToRole="student_tute" />
+    <NavigationProperty Name="subject" Relationship="StudentApp.Models.FK__tute__sub_id__4222D4EF" FromRole="tute" ToRole="subject" />
+    <NavigationProperty Name="teacher" Relationship="StudentApp.Models.FK__tute__t_id__412EB0B6" FromRole="tute" ToRole="teacher" />
+  </EntityType>
+  <Association Name="FK__classroom__class__49C3F6B7">
+    <End Type="StudentApp.Models.classroom" Role="classroom" Multiplicity="0..1" />
+    <End Type="StudentApp.Models.classroom_allocation_data" Role="classroom_allocation_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="classroom">
+        <PropertyRef Name="class_id" />
+      </Principal>
+      <Dependent Role="classroom_allocation_data">
+        <PropertyRef Name="class_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__classroom___t_id__48CFD27E">
+    <End Type="StudentApp.Models.teacher" Role="teacher" Multiplicity="0..1" />
+    <End Type="StudentApp.Models.classroom_allocation_data" Role="classroom_allocation_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="teacher">
+        <PropertyRef Name="t_id" />
+      </Principal>
+      <Dependent Role="classroom_allocation_data">
+        <PropertyRef Name="t_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__classroom__sub_i__4AB81AF0">
+    <End Type="StudentApp.Models.subject" Role="subject" Multiplicity="0..1" />
+    <End Type="StudentApp.Models.classroom_allocation_data" Role="classroom_allocation_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subject">
+        <PropertyRef Name="sub_id" />
+      </Principal>
+      <Dependent Role="classroom_allocation_data">
+        <PropertyRef Name="sub_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__computer__lab_id__66603565">
+    <End Type="StudentApp.Models.lab" Role="lab" Multiplicity="0..1" />
+    <End Type="StudentApp.Models.computer" Role="computer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lab">
+        <PropertyRef Name="lab_id" />
+      </Principal>
+      <Dependent Role="computer">
+        <PropertyRef Name="lab_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__emp_atten__emp_i__5FB337D6">
+    <End Type="StudentApp.Models.employee" Role="employee" Multiplicity="0..1" />
+    <End Type="StudentApp.Models.emp_attendence" Role="emp_attendence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="emp_id" />
+      </Principal>
+      <Dependent Role="emp_attendence">
+        <PropertyRef Name="emp_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__employee__f_id__5CD6CB2B">
+    <End Type="StudentApp.Models.fund_info" Role="fund_info" Multiplicity="0..1" />
+    <End Type="StudentApp.Models.employee" Role="employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="fund_info">
+        <PropertyRef Name="f_id" />
+      </Principal>
+      <Dependent Role="employee">
+        <PropertyRef Name="f_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__subject_e__exam___5812160E">
+    <End Type="StudentApp.Models.exam" Role="exam" Multiplicity="1" />
+    <End Type="StudentApp.Models.subject_exam" Role="subject_exam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="exam">
+        <PropertyRef Name="exam_id" />
+      </Principal>
+      <Dependent Role="subject_exam">
+        <PropertyRef Name="exam_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__student_t__st_id__4F7CD00D">
+    <End Type="StudentApp.Models.Student" Role="Student" Multiplicity="1" />
+    <End Type="StudentApp.Models.student_tute" Role="student_tute" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="student_tute">
+        <PropertyRef Name="st_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__student_t__tute___5070F446">
+    <End Type="StudentApp.Models.tute" Role="tute" Multiplicity="1" />
+    <End Type="StudentApp.Models.student_tute" Role="student_tute" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tute">
+        <PropertyRef Name="tute_id" />
+      </Principal>
+      <Dependent Role="student_tute">
+        <PropertyRef Name="tute_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__subject_e__sub_i__571DF1D5">
+    <End Type="StudentApp.Models.subject" Role="subject" Multiplicity="1" />
+    <End Type="StudentApp.Models.subject_exam" Role="subject_exam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subject">
+        <PropertyRef Name="sub_id" />
+      </Principal>
+      <Dependent Role="subject_exam">
+        <PropertyRef Name="sub_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tute__sub_id__4222D4EF">
+    <End Type="StudentApp.Models.subject" Role="subject" Multiplicity="0..1" />
+    <End Type="StudentApp.Models.tute" Role="tute" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subject">
+        <PropertyRef Name="sub_id" />
+      </Principal>
+      <Dependent Role="tute">
+        <PropertyRef Name="sub_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tute__t_id__412EB0B6">
+    <End Type="StudentApp.Models.teacher" Role="teacher" Multiplicity="0..1" />
+    <End Type="StudentApp.Models.tute" Role="tute" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="teacher">
+        <PropertyRef Name="t_id" />
+      </Principal>
+      <Dependent Role="tute">
+        <PropertyRef Name="t_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="student_subject">
+    <End Type="StudentApp.Models.subject" Role="subject" Multiplicity="*" />
+    <End Type="StudentApp.Models.Student" Role="Student" Multiplicity="*" />
+  </Association>
+</Schema>

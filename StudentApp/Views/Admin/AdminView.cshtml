@@ -1,0 +1,163 @@
+﻿
+@{
+    ViewBag.Title = "AdminView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Raw(TempData["LoginSuccessmessage"])
+<div style="background-color: #f1f2f6; text-align: center; display: inline-block; margin: 0; padding: 5px 14px 5px 14px; border-radius: 8px">
+    <h4>@Html.ActionLink("Logout", "Logout", "Home")</h4></div>
+    <style>
+        /*---------------------------services---------------------------*/
+        #services {
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+
+            #services .row {
+                margin-top: 30px;
+            }
+
+        .col-md-4 {
+            margin: 10px auto;
+        }
+
+        .profile {
+            padding: 20px 20px 20px;
+            background-color: #efefef;
+        }
+
+
+
+
+
+            .profile h1 {
+                font-size: 40px;
+                margin-top: 15px;
+                color: #007bff;
+            }
+
+
+        #services span {
+            font-size: 12px;
+            color: #333;
+        }
+
+        blockquote {
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+            blockquote::before {
+                content: '\93';
+                font-size: 50px;
+                color: #007bff;
+                position: relative;
+                line-height: 20px;
+                bottom: -15px;
+                right: 5px;
+            }
+
+            blockquote::after {
+                content: '\94';
+                font-size: 50px;
+                color: #007bff;
+                position: relative;
+                line-height: 10px;
+                bottom: -15px;
+                left: 5px;
+            }
+
+        .profile:hover {
+            box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        h1 {
+            display: block;
+            font-size: 2em;
+            margin-top: 0.67em;
+            margin-bottom: 0.67em;
+            margin-left: 0;
+            margin-right: 0;
+            font-weight: bold;
+        }
+    </style>
+
+
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <a href="../Students/StudentView"><img src="~/img/student.jpg" class="img-responsive" /></a>
+                        <!--<h1 style="text-decoration-style:none">@Html.ActionLink("Student ", "../Students/StudentView")</h1>-->
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <a href="../Employee/main"><img src="~/img/employee.jpg" class="img-responsive" /></a>
+                        <!--<h1 style="text-decoration-style:none">@Html.ActionLink("Employee ", "../Employee/main")</h1>-->
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <a href="../Subjects/mainSub"><img src="~/img/subject.jpg" class="img-responsive" /></a>
+                        <!--<h1 style="text-decoration-style:none">@Html.ActionLink("Subject ", "../Subjects/mainSub")</h1>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <a href="../Tutes/Index"><img src="~/img/tute.jpg" class="img-responsive" /></a>
+                        <!--<h1 style="text-decoration-style:none">@Html.ActionLink("Tute ", "../Tutes/Index")</h1>-->
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <a href="../FinanceManager/FinanceManagerHome"><img src="~/img/finance.jpg" class="img-responsive" /></a>
+                        <!--<h1 style="text-decoration-style:none">@Html.ActionLink("Finance ", "../FinanceManager/FinanceManagerHome")</h1>-->
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <a href="../Teacher/TeacherView"><img src="~/img/teacher.jpg" class="img-responsive" /></a>
+                        <!--<h1 style="text-decoration-style:none">@Html.ActionLink("Teacher ", "../Teacher/TeacherView")</h1>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <a href="../Classroom/Index"><img src="~/img/classroom.jpg" class="img-responsive" /></a>
+                        <!--<h1 style="text-decoration-style:none">@Html.ActionLink("Classroom ", "../Classroom/Index")</h1>-->
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <a href="../ComputerLab/Index"><img src="~/img/labb.jpg" class="img-responsive" /></a>
+                        <!--<h1 style="text-decoration-style:none">@Html.ActionLink("Lab Management ", "../Students/StudentView")</h1>-->
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <a href="../Students/StudentView"><img src="~/img/aa.jpg" class="img-responsive" /></a>
+                        <!--<h1 style="text-decoration-style:none">@Html.ActionLink("Other ", "../Students/StudentView")</h1>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-----------testiorial section end----------->

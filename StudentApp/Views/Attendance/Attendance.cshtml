@@ -1,0 +1,38 @@
+﻿@model IEnumerable<StudentApp.Models.student_attendence>
+
+@{
+    ViewBag.Title = "Attendance";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Attendance</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" id="customers">
+    <tr>
+        <th>
+            <b>Date</b>
+        </th>
+        <th>
+            <b>Student Name</b>
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td>
+                @DateTime.Parse(Html.DisplayFor(modelItem => item.date).ToString()).ToShortDateString()
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Student.Full_Name)
+            </td>
+        </tr>
+
+    }
+
+</table>
+

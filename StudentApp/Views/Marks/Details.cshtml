@@ -1,0 +1,60 @@
+﻿@model StudentApp.Models.marksInfo
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4> @Html.DisplayFor(model => model.Student.Full_Name)</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Student
+            @*@Html.DisplayNameFor(model => model.Student.Full_Name)*@
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Student.Full_Name)
+        </dd>
+
+        <dt>
+            Subject
+            @*@Html.DisplayNameFor(model => model.subject.title)*@
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.subject.title)
+           
+        </dd>
+
+        <dt>
+            Exam
+            @*@Html.DisplayNameFor(model => model.exam.exam_title)*@
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.exam.exam_title)
+           
+        </dd>
+
+        <dt>
+            Marks
+            @*@Html.DisplayNameFor(model => model.marks)*@
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.marks)
+           
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

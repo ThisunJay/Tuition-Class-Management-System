@@ -1,0 +1,160 @@
+﻿@model StudentApp.Models.classroom
+
+
+
+
+
+@{
+    ViewBag.Title = "Create";
+
+    List<SelectListItem> loc_li = new List<SelectListItem>();
+    loc_li.Add(new SelectListItem() { Text = "Pubudu" });
+    loc_li.Add(new SelectListItem() { Text = "Sipsewana" });
+
+
+
+
+    List<SelectListItem> ac_li = new List<SelectListItem>();
+    ac_li.Add(new SelectListItem() { Text = "Non" });
+    ac_li.Add(new SelectListItem() { Text = "Ac" });
+
+
+
+}
+
+<h2>Add Classroom</h2>
+
+<ul class="nav nav-tabs">
+    <li><a href="../Classroom/Index">Classrooms</a></li>
+    <li class="active"><a href="../Classroom/Create">Create New</a></li>
+
+
+
+
+    <li><a href="../Classroom/view2">Pubudu Institute</a></li>
+    <li><a href="../Classroom/view3">Sipsewana Institute</a></li>
+
+
+
+
+    @*<li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Locations
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="../Classroom/view2">Pubudu Institute</a></li>
+                <li><a href="../Classroom/view3">Sipsewana Institute</a></li>
+
+            </ul>
+        </li>*@
+
+
+
+    <li><a href="../Allocation/Index">Allocations</a></li>
+</ul>
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Classroom</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <Label class="control-label col-md-2">Maximum</Label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.max, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.max, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <Label class="control-label col-md-2">Minimum</Label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.min, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.min, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <Label class="control-label col-md-2">Location</Label>
+            <div class="col-md-10">
+
+
+
+                @Html.DropDownListFor(model => model.location, loc_li, new { @class = "form-control" })
+
+
+
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <Label class="control-label col-md-2">Name</Label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <Label class="control-label col-md-2">Ac/Non</Label>
+            <div class="col-md-10">
+
+                @Html.DropDownListFor(model => model.ac_nonac, ac_li, new { @class = "form-control" })
+
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                    Save Details
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="exampleModalLabel">Save changes or Review data ?</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Review Data</button>
+                                <button type="submit" class="btn btn-primary" value="Create">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

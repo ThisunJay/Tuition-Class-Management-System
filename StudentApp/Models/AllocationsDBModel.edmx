@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="TMSApp.Models.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="classroom_allocation_data">
+          <Key>
+            <PropertyRef Name="ca_id" />
+          </Key>
+          <Property Name="ca_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="day" Type="varchar" MaxLength="20" />
+          <Property Name="start_time" Type="varchar" MaxLength="10" />
+          <Property Name="end_time" Type="varchar" MaxLength="10" />
+          <Property Name="t_id" Type="varchar" MaxLength="10" />
+          <Property Name="class_id" Type="varchar" MaxLength="10" StoreGeneratedPattern="None" />
+          <Property Name="sub_id" Type="varchar" MaxLength="10" />
+          <Property Name="no_of_students" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <EntityContainer Name="TMSAppModelsStoreContainer">
+          <EntitySet Name="classroom_allocation_data" EntityType="Self.classroom_allocation_data" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TMSApp.Models" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Allocation">
+          <Key>
+            <PropertyRef Name="ca_id" />
+          </Key>
+          <Property Name="ca_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="day" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="start_time" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="end_time" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="t_id" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="class_id" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="sub_id" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="no_of_students" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityContainer Name="TMSDBEntities8" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Allocations" EntityType="TMSApp.Models.Allocation" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="TMSAppModelsStoreContainer" CdmEntityContainer="TMSDBEntities8">
+          <EntitySetMapping Name="Allocations">
+            <EntityTypeMapping TypeName="TMSApp.Models.Allocation">
+              <MappingFragment StoreEntitySet="classroom_allocation_data">
+                <ScalarProperty Name="class_id" ColumnName="class_id" />
+                <ScalarProperty Name="ca_id" ColumnName="ca_id" />
+                <ScalarProperty Name="day" ColumnName="day" />
+                <ScalarProperty Name="start_time" ColumnName="start_time" />
+                <ScalarProperty Name="end_time" ColumnName="end_time" />
+                <ScalarProperty Name="t_id" ColumnName="t_id" />
+                <ScalarProperty Name="sub_id" ColumnName="sub_id" />
+                <ScalarProperty Name="no_of_students" ColumnName="no_of_students" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

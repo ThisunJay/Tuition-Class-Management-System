@@ -1,0 +1,135 @@
+﻿@model IPagedList<StudentApp.Models.employee>
+
+@{
+    ViewBag.Title = "EmplyeeView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using PagedList.Mvc;
+@using PagedList;
+
+
+<style>
+    #customers {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #0a3d62;
+            color: white;
+        }
+
+    .logoutbtn {
+        background-color: #353b48;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        padding: 8px 11px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+</style>
+
+<div class="jumbotron">
+    <center>
+        <h1><b>Pubudu Education Centre</b></h1>
+        <h2>Employee Management</h2>
+        <button class="logoutbtn"> @Html.ActionLink("Employee Home", "../Employee/main") </button>
+    </center>
+</div>
+
+<p>
+    <!--Html.ActionLink("Add a new Employee", "Create")-->
+
+    <a href="@Url.Action("Create", "Employee")"><img src="~/img/addemp.png" /> Add Employee </a>
+
+    @using (Html.BeginForm())
+    {
+    <p>
+        Name: @Html.TextBox("Search") &nbsp; &nbsp;
+        <input style="border-radius: 1px" type="submit" value="Search" />
+    </p>
+}
+
+    <button class="button">
+        <img src="~/img/s5.png" width="20px" />@Html.ActionLink("Generate Employee Report", "Reports", new { ReportType = "PDF" })
+    </button>
+
+    <table class="table" id="customers">
+        <tr>
+            <th>
+                Full Name
+                <!--@Html.DisplayNameFor(model => model.First().full_name)-->
+            </th>
+            <th>
+                Salary
+                <!--@Html.DisplayNameFor(model => model.First().salary)-->
+            </th>
+            <th>
+                Birth date
+                <!--@Html.DisplayNameFor(model => model.First().birthday)-->
+            </th>
+            <th>
+                Email
+                <!--@Html.DisplayNameFor(model => model.First().email)-->
+            </th>
+            <th>
+                Contact Number
+                <!--@Html.DisplayNameFor(model => model.First().contact_num)-->
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.full_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.salary)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.birthday)*@
+                    @DateTime.Parse(Html.DisplayFor(modelItem => item.birthday).ToString()).ToShortDateString()
+                    @*@DateTime.Parse(Html.DisplayFor(modelItem => item.birthday).ToString()).ToShortDateString()*@
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.contact_num)
+                </td>
+                <td>
+                    <div style="background-color: #f1f2f6; text-align: center; display: inline-block; margin: 0; padding: 5px 14px 5px 14px; border-radius: 8px">@Html.ActionLink("Edit", "Edit", new { id = item.emp_id })</div> |
+                    <div style="background-color: #f1f2f6; text-align: center; display: inline-block; margin: 0; padding: 5px 14px 5px 14px; border-radius: 8px">@Html.ActionLink("Details", "Details", new { id = item.emp_id })</div> |
+                    <div style="background-color: #f1f2f6; text-align: center; display: inline-block; margin: 0; padding: 5px 14px 5px 14px; border-radius: 8px">@Html.ActionLink("Delete", "Delete", new { id = item.emp_id })</div>
+                </td>
+            </tr>
+        }
+
+    </table>
+
+    @Html.PagedListPager(Model, i => Url.Action("EmployeeView", "Employee", new { i, search = Request.QueryString["search"] }))

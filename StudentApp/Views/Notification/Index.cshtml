@@ -1,0 +1,48 @@
+﻿@model IEnumerable<StudentApp.Models.notify>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Notifications</h2>
+
+@using (Html.BeginForm())
+{
+    <p>
+        Name: @Html.TextBox("Search") &nbsp; &nbsp;
+        <input style="border-radius: 1px" type="submit" value="Search" />
+    </p>
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.descript)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descript)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.n_id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.n_id })
+            </td>
+        </tr>
+    }
+
+</table>

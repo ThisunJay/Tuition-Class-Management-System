@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="51ece126179148f0963cddf21c1b963e" Name="Diagram1" ZoomLevel="67">
+        <EntityTypeShape EntityType="TMSDBModel.classroom" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSDBModel.employee" Width="1.5" PointX="10.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSDBModel.exam" Width="1.5" PointX="3.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSDBModel.fund_info" Width="1.5" PointX="5.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSDBModel.student_tute" Width="1.5" PointX="8.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSDBModel.Student" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSDBModel.subject" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSDBModel.subject_exam" Width="1.5" PointX="6" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSDBModel.teacher" Width="1.5" PointX="3.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSDBModel.tute" Width="1.5" PointX="6" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSDBModel.user" Width="1.5" PointX="11.375" PointY="11.125" IsExpanded="true" />
+        <AssociationConnector Association="TMSDBModel.FK__subject_e__exam___5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSDBModel.FK__student_t__st_id__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSDBModel.FK__student_t__tute___5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSDBModel.FK__subject_e__sub_i__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSDBModel.FK__tute__sub_id__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSDBModel.FK__tute__t_id__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSDBModel.student_subject" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TMSDBModel.Allocation" Width="1.5" PointX="6.375" PointY="13.75" />
+        <EntityTypeShape EntityType="TMSDBModel.Bill" Width="1.5" PointX="8.75" PointY="11.75" />
+        <EntityTypeShape EntityType="TMSDBModel.Invoice" Width="1.5" PointX="11.75" PointY="14.125" />
+        <EntityTypeShape EntityType="TMSDBModel.Tax" Width="1.5" PointX="9.25" PointY="14.25" />
+        <EntityTypeShape EntityType="TMSDBModel.Tutes" PointX="14.375" PointY="0.75" Width="1.5" />
+        <EntityTypeShape EntityType="TMSDBModel.classroom1" Width="1.5" PointX="13" PointY="8.5" />
+        <EntityTypeShape EntityType="TMSDBModel.marksInfo" Width="1.5" PointX="6" PointY="17.25" />
+        <AssociationConnector Association="TMSDBModel.FK__marksInfo__e_id__17C286CF" />
+        <AssociationConnector Association="TMSDBModel.FK__marksInfo__stu_i__18B6AB08" />
+        <AssociationConnector Association="TMSDBModel.FK__marksInfo__sub_i__16CE6296" />
+        <EntityTypeShape EntityType="TMSDBModel.student_attendence" Width="1.5" PointX="5.25" PointY="21" />
+        <AssociationConnector Association="TMSDBModel.FK__student_a__stu_i__19AACF41" />
+        <EntityTypeShape EntityType="TMSDBModel.emp_attendence" Width="1.5" PointX="13" PointY="5.25" />
+        <AssociationConnector Association="TMSDBModel.FK__emp_atten__emp_i__65F62111" />
+        <EntityTypeShape EntityType="TMSDBModel.notify" Width="1.5" PointX="10.375" PointY="8.75" />
+        <EntityTypeShape EntityType="TMSDBModel.computer" Width="1.5" PointX="8.375" PointY="0.75" />
+        <EntityTypeShape EntityType="TMSDBModel.lab" Width="1.5" PointX="10.375" PointY="0.75" />
+        <EntityTypeShape EntityType="TMSDBModel.repair" Width="1.5" PointX="12.375" PointY="0.75" />
+        <EntityTypeShape EntityType="TMSDBModel.tuteinfo" Width="1.5" PointX="14.5" PointY="11.375" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

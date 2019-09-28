@@ -1,0 +1,267 @@
+﻿
+@model StudentApp.Models.classroom
+
+@{
+    ViewBag.Title = "view3";
+}
+
+
+<h2>Sipsewana Institute</h2>
+
+<ul class="nav nav-tabs">
+    <li><a href="../../Classroom/Index">Classrooms</a></li>
+    <li><a href="../../Classroom/Create">Create New</a></li>
+
+
+
+
+    <li><a href="../../Classroom/view2">Pubudu Institute</a></li>
+    <li class="active"><a href="../Classroom/view3">Sipsewana Institute</a></li>
+
+
+    <li><a href="../../Allocation/Index">Allocations</a></li>
+</ul>
+
+
+<div class="row">
+
+    <div class="col-sm-1 col-md-8">
+        <br />
+        <div class="row">
+            <div class="col-sm-1 col-md-4">
+                <p>
+                    Address:
+                    Sipsewana Institute,
+                    No.31/5,Station Road,Ambalanthota
+                </p>
+            </div>
+            <div class="col-sm-1 col-md-4">
+                <p>
+                    Contact: 071-2303299
+                </p>
+            </div>
+        </div>
+        <br />
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="row">
+
+                    <div class="col-sm-8" style="height:40px ;background-color:lightskyblue;">@Html.ActionLink("S41", "view3", new { id = 35 })</div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-2" style="height:40px ;background-color:aquamarine;">@Html.ActionLink("S31", "view3", new { id = 32 })</div>
+                    <div class="col-sm-2" style="height:40px ;background-color:deepskyblue;">@Html.ActionLink("S32", "view3", new { id = 33 })</div>
+                    <div class="col-sm-2" style="height:40px ;background-color:aquamarine;">@Html.ActionLink("S33", "view3", new { id = 34 })</div>
+                    <div class="col-sm-2" style="height:40px ;background-color:lightsteelblue;"></div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-2" style="height:40px ;background-color:cyan;">@Html.ActionLink("S21", "view3", new { id = 7 })</div>
+                    <div class="col-sm-4" style="height:40px ;background-color:lightgreen;">@Html.ActionLink("S22", "view3", new { id = 31 })</div>
+                    <div class="col-sm-2" style="height:40px ;background-color:lightslategrey;"></div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-6" style="height:40px ;background-color:lightskyblue;">@Html.ActionLink("S11", "view3", new { id = 17 })</div>
+                    <div class="col-sm-2" style="height:40px ;background-color:lightsteelblue;"></div>
+
+
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-6" style="height:40px ;background-color:aquamarine;">@Html.ActionLink("S01", "view3", new { id = 2 })</div>
+                    <div class="col-sm-2" style="height:40px ;background-color:lightslategrey;"></div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div>
+            <br />
+            <p class="help-block">
+                Description: This View shows the building Layout of the Sipsewana Institute.
+                Click on the class names to see details.
+            </p>
+            <p class="help-block">
+                Click on the class names to see details.
+            </p>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div class="col-sm-3 col-md-4">
+
+        @*<div class="form-horizontal">
+
+                <h1>  @Html.DisplayFor(model => model.name)</h1>
+
+                <hr />
+                <dl class="dl-horizontal">
+                    <dt>
+                        <Label class="control-label col-md-2">Maximum</Label>
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.max)
+                    </dd>
+
+                    <dt>
+                        <Label class="control-label col-md-2">Minimum</Label>
+
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.min)
+                    </dd>
+
+                    <dt>
+                        <Label class="control-label col-md-2">Location</Label>
+
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.location)
+                    </dd>
+
+                    <dt>
+                        <Label class="control-label col-md-2">Name</Label>
+
+
+                    <dd>
+                        @Html.DisplayFor(model => model.name)
+                    </dd>
+
+                    <dt>
+                        <Label class="control-label col-md-2">Ac/Non</Label>
+
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.ac_nonac)
+                    </dd>
+
+                </dl>
+            </div>
+
+            <hr />
+
+            <div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>*@
+
+
+
+
+        <div class="row">
+            <div class="col-sm-3 col-md-10">
+                <div class="thumbnail">
+                    <img width="220" height="220" src="~/img/classroom_view2_view3.jpg" alt="...">
+                    <div class="caption">
+                        <p>
+                            <h3> Class Name: @Html.DisplayFor(model => model.name)</h3>
+
+                            <hr />
+                            <dl class="dl-horizontal">
+                                <dt>
+                                    <Label class="control-label col-md-2">Maximum</Label>
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.max)
+                                </dd>
+
+                                <dt>
+                                    <Label class="control-label col-md-2">Minimum</Label>
+
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.min)
+                                </dd>
+
+                                <dt>
+                                    <Label class="control-label col-md-2">Location</Label>
+
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.location)
+                                </dd>
+
+                                <dt>
+                                    <Label class="control-label col-md-2">Name</Label>
+
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.name)
+                                </dd>
+
+                                <dt>
+                                    <Label class="control-label col-md-2">Ac/Non</Label>
+
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.ac_nonac)
+                                </dd>
+
+                            </dl>
+                        </p>
+
+                        <hr />
+
+                        <div>
+                            @Html.ActionLink("Back to List", "Index")
+                        </div>
+
+                        @*<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+</div>
+
+
+

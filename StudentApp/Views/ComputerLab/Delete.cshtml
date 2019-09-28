@@ -1,0 +1,37 @@
+﻿@model StudentApp.Models.lab
+
+@{
+    /**/
+
+    Layout = null;
+}
+<h2>Delete Lab Details.</h2>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+@using (Html.BeginForm("delete", "ComputerLab", FormMethod.Post, new { id = "popupForm" }))
+{
+    @Html.HiddenFor(a => a.LabNo)
+    <div class="form-group">
+        <label>Lab  No</label>
+        <p>@Model.LabNo</p>
+
+        <div class="form-group">
+            <label>Floor</label>
+            <p>@Model.floor</p>
+        </div>
+
+
+
+        <div>
+            <br /><br /><br /><br /><br />
+            <h4>Confirm?</h4>
+            <br />
+            <i class="fa fa-trash"></i>
+            <input type="submit" class="btn btn-danger btn-sm" value="Delete" />
+            <br />
+        </div>
+
+    </div>
+}
+
+

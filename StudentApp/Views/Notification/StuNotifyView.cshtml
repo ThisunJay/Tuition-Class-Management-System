@@ -1,0 +1,71 @@
+﻿@model IEnumerable<StudentApp.Models.notify>
+
+@{
+    ViewBag.Title = "StuNotifyView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<div style="text-align:center">
+    <h2>Student Notofications</h2>
+</div>
+<br />
+<style>
+    .unlist {
+    
+    }
+</style>
+
+@*<table class="table">
+    <tr>
+        <th>
+            
+            @Html.DisplayNameFor(model => model.title)
+              
+        </th>
+        <th>
+            
+                @Html.DisplayNameFor(model => model.descript)
+               
+        </th>
+        
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>  
+            
+            @Html.DisplayFor(modelItem => item.title)
+                
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.descript)
+        </td>
+        
+    </tr>
+}
+
+</table>*@
+
+<ul class="unlist" style="background-color:aqua; padding-top:10px; padding-bottom:10px">
+
+    @foreach (var item in Model)
+    {
+
+        <li>
+
+            <h3>@Html.DisplayFor(modelItem => item.title)</h3>
+
+        </li>
+
+
+        <div style="text-align:center">
+            <p>@Html.DisplayFor(modelItem => item.descript)</p>
+        </div>
+        <br />
+        <br />
+
+    }
+
+</ul>
+
+

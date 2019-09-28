@@ -1,0 +1,109 @@
+﻿@model IPagedList<StudentApp.Models.exam>
+
+@{
+    ViewBag.Title = "Exams";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using PagedList.Mvc;
+@using PagedList;
+
+<div class="jumbotron">
+    <center>
+        <h1><b>Pubudu Education Centre</b></h1>
+        <h2>Exam Management</h2>
+
+    </center>
+</div>
+<style>
+    .btn-group .button {
+        background-color: white; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+    }
+
+    #exam {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        #exam td, #exam th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #exam tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #exam tr:hover {
+            background-color: #ddd;
+        }
+
+        #exam th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #0a3d62;
+            color: white;
+        }
+    /*
+        .btn-group .button:hover {
+            background-color: black;
+        }*/
+
+
+    .button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+</style>
+
+<center>
+    <div class="btn-group">
+        <button class="button"> <img src="~/img/exam1.png" width="20px" /> @Html.ActionLink("Add Exam   ", "Create")</button>
+        <button class="button"> <img src="~/img/grade.png" width="20px" /> @Html.ActionLink("Marks   ", "../Marks/Index")</button>
+        <button class="button"><img src="~/img/homie.png" width="20px" />@Html.ActionLink(" Home ", "../Subjects/mainSub")</button>
+        <button class="button"><img src="~/img/s6.png" width="20px" />@Html.ActionLink(" Logout ", "../Home")</button>
+
+    </div>
+</center>
+
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <p>
+        @Html.ActionLink("Marks", "../Marks/Index")
+    </p>*@
+<table class="table" id="exam">
+    <tr>
+        <th>
+            Exam Name
+            @*@Html.DisplayNameFor(model => model.exam_title)*@
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.exam_title)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.exam_id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.exam_id })
+            </td>
+        </tr>
+    }
+
+</table>
+
+@Html.PagedListPager(Model, i => Url.Action("Exams", "Exam", new { i, search = Request.QueryString["search"] }))

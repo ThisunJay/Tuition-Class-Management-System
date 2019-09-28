@@ -1,0 +1,60 @@
+﻿@model StudentApp.Models.teacher
+
+<div>
+    <h4>teacher</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.full_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.full_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.school)
+        </dt>
+
+        <dd>
+            Subject
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.division)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.division)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.t_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.t_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.contact_number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.contact_number)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.t_id }) |
+    @Html.ActionLink("Back to List", "TeacherView")
+</p>

@@ -1,0 +1,229 @@
+﻿
+@{
+    /**/
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Manage Computers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+
+
+
+
+
+    <link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    <style>
+        span.field-validation-error {
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="~/img/pu8.jpg" width="100" />
+                <!--@Html.ActionLink("Pubudu Education Centre", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })-->
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Events", "Events", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br /><br /><br />
+    <h2 align="center">Computer Details</h2>
+
+    <div style="width:95%; margin:0 auto" class="tablecontainer">
+
+        <a class="popup btn btn-primary" href="/Computer/save/0" style="margin-bottom:20px; margin-top:20px;">+ Add New Computer</a>
+        <a class="btn btn" href="/ComputerLab/Index/0" float="right" style="margin-bottom:20px; margin-top:20px;">See Lab Details</a>
+        <a class="btn btn" href="/ComputerRepair/Index/0" float="right" style="margin-bottom:20px; margin-top:20px;">See Repair Details</a>
+        <table id="myDataTable" class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Lab<br />ID</th>
+                    <th>Machine<br />ID</th>
+                    <th>Processor<br />Type</th>
+                    <th>Motherboard<br />ID</th>
+                    <th>PowerSupply<br />ID</th>
+                    <th>RAM<br />Capacity</th>
+                    <th>HDD<br />Capacity</th>
+                    <th></th>
+                </tr>
+
+            </thead>
+        </table>
+
+
+
+    </div>
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    @*<script src="http://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>*@
+    <script src="http://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script src="~/Scripts/notify.min.js"></script>
+
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.flash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.print.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            var oTable = $('#myDataTable').DataTable({
+                "ajax": {
+                    "url": '/Computer/GetMachineDetails',
+                    "type": "get",
+                    "datatype": "json"
+
+                },
+
+
+                "columns": [
+                    { "data": "LabNo", "autoWidth": true },
+                    { "data": "MachineNO", "autoWidth": true },
+                    { "data": "Processor_Type", "autoWidth": true },
+                    { "data": "Motherboard_ID", "autoWidth": true },
+                    { "data": "PowerSupply_ID", "autoWidth": true },
+                    { "data": "RAM_Capacity", "autoWidth": true },
+                    { "data": "HDD_Capacity", "autoWidth": true },
+                    {
+                        "data": "MachineNO", "render": function (data) {
+                            return '<a  class="popup btn btn-default btn-sm" href="/Computer/save/' + data + '" ><i class="fa fa-pencil"></i>  Edit</a> &nbsp&nbsp&nbsp <a class="popup btn btn-danger btn-sm"  href="/Computer/delete/' + data + '"><i class="fa fa-trash"></i>  Delete</a>';
+                        }
+                    },
+
+                ],
+                "dom": "Bfrtip",
+                "buttons": [
+                    {
+                        extend: 'copy',
+                        className: 'copyButton',
+                        text: '<i class="fa fa-clone"></i> Copy'
+                    },
+                    {
+                        extend: 'excel',
+                        text: '<i class="fa fa-file-excel-o"></i> Gerenrate & Download Excel'
+                    },
+                    {
+                        extend: 'pdf',
+                        text: '<i class="fa fa-file-pdf-o"></i> Gerenrate & Download Pdf'
+                    },
+                    {
+                        extend: 'csv',
+                        text: '<i class="fa fa-file-excel-o"></i> Gerenrate & Download CSV'
+                    }
+                ],
+
+
+                "language": {
+                    "emptyTable": "No data found, Please click on <b>Add New Computer</b> Button "
+                }
+
+            })
+
+            $('.tablecontainer').on('click', 'a.popup', function (e) {
+                e.preventDefault();
+                OpenPopup($(this).attr('href'));
+            })
+
+            function OpenPopup(pageUrl) {
+                var $pageContent = $('<div/>');
+                $pageContent.load(pageUrl, function () {
+                    $('#popupForm', $pageContent).removeData('validator');
+                    $('#popupForm', $pageContent).removeData('unobtrusiveValidation');
+                    $.validator.unobtrusive.parse('form');
+
+                });
+                //popup window settings
+                $dialog = $('<div class="popupWindow" style="overflow:auto"></div>')
+                    .html($pageContent)
+                    .dialog({
+                        draggable: true,
+                        autoOpen: false,
+                        resizable: false,
+                        model: true,
+                        title: 'Computer Management',
+                        height: 550,
+                        width: 600,
+                        close: function () {
+                            $dialog.dialog('destroy').remove();
+                        }
+                    })
+                //popup form
+                $('.popupWindow').on('submit', '#popupForm', function (e) {
+                    var url = $('#popupForm')[0].action;
+                    $.ajax({
+                        type: "POST",
+                        url: url,
+                        data: $('#popupForm').serialize(),
+                        success: function (data) {
+                            if (data.status) {
+                                $dialog.dialog('close');
+                                oTable.ajax.reload();
+
+                                //success msg
+                                $.notify(data.message, {
+                                    globalPosition: 'top right',
+                                    hideAnimation: 'slideUp',
+                                    showAnimation: 'slideDown',
+                                    className: "success"
+                                })
+                            }
+                        }
+                    })
+
+                    e.preventDefault();
+                })
+                $dialog.dialog('open');
+            }
+        })
+    </script>
+
+
+    <div class="container body-content">
+
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - ITP-2019-MLB-G12-04</p>
+        </footer>
+    </div>
+</body>
+
+</html>

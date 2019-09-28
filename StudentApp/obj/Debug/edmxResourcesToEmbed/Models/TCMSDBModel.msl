@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TMSDBModelStoreContainer" CdmEntityContainer="TCMSDBEntities">
+    <EntitySetMapping Name="classrooms">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.classroom)">
+        <MappingFragment StoreEntitySet="classrooms">
+          <ScalarProperty Name="class_id" ColumnName="class_id" />
+          <ScalarProperty Name="max" ColumnName="max" />
+          <ScalarProperty Name="min" ColumnName="min" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="ac_nonac" ColumnName="ac_nonac" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employees">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.employee)">
+        <MappingFragment StoreEntitySet="employees">
+          <ScalarProperty Name="emp_id" ColumnName="emp_id" />
+          <ScalarProperty Name="full_name" ColumnName="full_name" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+          <ScalarProperty Name="birthday" ColumnName="birthday" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="contact_num" ColumnName="contact_num" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="exams">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.exam)">
+        <MappingFragment StoreEntitySet="exams">
+          <ScalarProperty Name="exam_id" ColumnName="exam_id" />
+          <ScalarProperty Name="exam_title" ColumnName="exam_title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="fund_info">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.fund_info)">
+        <MappingFragment StoreEntitySet="fund_info">
+          <ScalarProperty Name="f_id" ColumnName="f_id" />
+          <ScalarProperty Name="epf_rate" ColumnName="epf_rate" />
+          <ScalarProperty Name="etf_rate" ColumnName="etf_rate" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="student_tute">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.student_tute)">
+        <MappingFragment StoreEntitySet="student_tute">
+          <ScalarProperty Name="st_id" ColumnName="st_id" />
+          <ScalarProperty Name="tute_id" ColumnName="tute_id" />
+          <ScalarProperty Name="t_mark" ColumnName="t_mark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.Student)">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Full_Name" ColumnName="Full_Name" />
+          <ScalarProperty Name="School" ColumnName="School" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Division" ColumnName="Division" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Contact_No" ColumnName="Contact_No" />
+          <ScalarProperty Name="Parent_Name" ColumnName="Parent_Name" />
+          <ScalarProperty Name="Parent_Mobile" ColumnName="Parent_Mobile" />
+          <ScalarProperty Name="Parent_Work" ColumnName="Parent_Work" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="subjects">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.subject)">
+        <MappingFragment StoreEntitySet="subjects">
+          <ScalarProperty Name="sub_id" ColumnName="sub_id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="grade" ColumnName="grade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="subject_exam">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.subject_exam)">
+        <MappingFragment StoreEntitySet="subject_exam">
+          <ScalarProperty Name="sub_id" ColumnName="sub_id" />
+          <ScalarProperty Name="exam_id" ColumnName="exam_id" />
+          <ScalarProperty Name="e_mark" ColumnName="e_mark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="teachers">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.teacher)">
+        <MappingFragment StoreEntitySet="teachers">
+          <ScalarProperty Name="noStudents" ColumnName="noStudents" />
+          <ScalarProperty Name="fees" ColumnName="fees" />
+          <ScalarProperty Name="t_id" ColumnName="t_id" />
+          <ScalarProperty Name="full_name" ColumnName="full_name" />
+          <ScalarProperty Name="school" ColumnName="school" />
+          <ScalarProperty Name="division" ColumnName="division" />
+          <ScalarProperty Name="t_address" ColumnName="t_address" />
+          <ScalarProperty Name="contact_number" ColumnName="contact_number" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tutes">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.tute)">
+        <MappingFragment StoreEntitySet="tutes">
+          <ScalarProperty Name="tute_id" ColumnName="tute_id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="upload_date" ColumnName="upload_date" />
+          <ScalarProperty Name="t_id" ColumnName="t_id" />
+          <ScalarProperty Name="sub_id" ColumnName="sub_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.user)">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="UserId_" ColumnName="UserId_" />
+          <ScalarProperty Name="UserName_" ColumnName="UserName_" />
+          <ScalarProperty Name="Password_" ColumnName="Password_" />
+          <ScalarProperty Name="IsActive_" ColumnName="IsActive_" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Allocations">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.Allocation)">
+        <MappingFragment StoreEntitySet="Allocations">
+          <ScalarProperty Name="ca_id" ColumnName="ca_id" />
+          <ScalarProperty Name="day" ColumnName="day" />
+          <ScalarProperty Name="start_time" ColumnName="start_time" />
+          <ScalarProperty Name="end_time" ColumnName="end_time" />
+          <ScalarProperty Name="t_id" ColumnName="t_id" />
+          <ScalarProperty Name="class_id" ColumnName="class_id" />
+          <ScalarProperty Name="sub_id" ColumnName="sub_id" />
+          <ScalarProperty Name="no_of_students" ColumnName="no_of_students" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bills">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.Bill)">
+        <MappingFragment StoreEntitySet="Bills">
+          <ScalarProperty Name="billId" ColumnName="billId" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Invoices">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.Invoice)">
+        <MappingFragment StoreEntitySet="Invoices">
+          <ScalarProperty Name="invoiceId" ColumnName="invoiceId" />
+          <ScalarProperty Name="from" ColumnName="from" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Taxes">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.Tax)">
+        <MappingFragment StoreEntitySet="Taxes">
+          <ScalarProperty Name="taxId" ColumnName="taxId" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="descrption" ColumnName="descrption" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tutes1">
+      <EntityTypeMapping TypeName="IsTypeOf(TMSDBModel.Tutes)">
+        <MappingFragment StoreEntitySet="Tutes1">
+          <ScalarProperty Name="Tute_id" ColumnName="Tute_id" />
+          <ScalarProperty Name="Tute_title" ColumnName="Tute_title" />
+          <ScalarProperty Name="Sub_name" ColumnName="Sub_name" />
+          <ScalarProperty Name="Teacher_name_" ColumnName="Teacher_name_" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="student_subject" TypeName="TMSDBModel.student_subject" StoreEntitySet="student_subject">
+      <EndProperty Name="subject">
+        <ScalarProperty Name="sub_id" ColumnName="subjects_sub_id" />
+      </EndProperty>
+      <EndProperty Name="Students">
+        <ScalarProperty Name="Id" ColumnName="Students_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="classroom1">
+      <EntityTypeMapping TypeName="TMSDBModel.classroom1">
+        <MappingFragment StoreEntitySet="classroom">
+          <ScalarProperty Name="ac_nonac" ColumnName="ac_nonac" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="min" ColumnName="min" />
+          <ScalarProperty Name="max" ColumnName="max" />
+          <ScalarProperty Name="class_id" ColumnName="class_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="marksInfoes">
+      <EntityTypeMapping TypeName="TMSDBModel.marksInfo">
+        <MappingFragment StoreEntitySet="marksInfo">
+          <ScalarProperty Name="marks" ColumnName="marks" />
+          <ScalarProperty Name="stu_id" ColumnName="stu_id" />
+          <ScalarProperty Name="e_id" ColumnName="e_id" />
+          <ScalarProperty Name="sub_id" ColumnName="sub_id" />
+          <ScalarProperty Name="m_id" ColumnName="m_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="student_attendence">
+      <EntityTypeMapping TypeName="TMSDBModel.student_attendence">
+        <MappingFragment StoreEntitySet="student_attendence">
+          <ScalarProperty Name="stu_id" ColumnName="stu_id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="att_id" ColumnName="att_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="emp_attendence">
+      <EntityTypeMapping TypeName="TMSDBModel.emp_attendence">
+        <MappingFragment StoreEntitySet="emp_attendence">
+          <ScalarProperty Name="emp_id" ColumnName="emp_id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="att_id" ColumnName="att_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="notifies">
+      <EntityTypeMapping TypeName="TMSDBModel.notify">
+        <MappingFragment StoreEntitySet="notify">
+          <ScalarProperty Name="descript" ColumnName="descript" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="n_id" ColumnName="n_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="computers">
+      <EntityTypeMapping TypeName="TMSDBModel.computer">
+        <MappingFragment StoreEntitySet="computer">
+          <ScalarProperty Name="HDD_Capacity" ColumnName="HDD_Capacity" />
+          <ScalarProperty Name="RAM_Capacity" ColumnName="RAM_Capacity" />
+          <ScalarProperty Name="PowerSupply_ID" ColumnName="PowerSupply_ID" />
+          <ScalarProperty Name="Motherboard_ID" ColumnName="Motherboard_ID" />
+          <ScalarProperty Name="Processor_Type" ColumnName="Processor_Type" />
+          <ScalarProperty Name="MachineNO" ColumnName="MachineNO" />
+          <ScalarProperty Name="LabNo" ColumnName="LabNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="labs">
+      <EntityTypeMapping TypeName="TMSDBModel.lab">
+        <MappingFragment StoreEntitySet="lab">
+          <ScalarProperty Name="floor" ColumnName="floor" />
+          <ScalarProperty Name="LabNo" ColumnName="LabNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="repairs">
+      <EntityTypeMapping TypeName="TMSDBModel.repair">
+        <MappingFragment StoreEntitySet="repair">
+          <ScalarProperty Name="repair_date" ColumnName="repair_date" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+          <ScalarProperty Name="repair_id" ColumnName="repair_id" />
+          <ScalarProperty Name="MachineNO" ColumnName="MachineNO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tuteinfoes">
+      <EntityTypeMapping TypeName="TMSDBModel.tuteinfo">
+        <MappingFragment StoreEntitySet="tuteinfo">
+          <ScalarProperty Name="Marks" ColumnName="Marks" />
+          <ScalarProperty Name="Student_id" ColumnName="Student_id" />
+          <ScalarProperty Name="Tutename" ColumnName="Tutename" />
+          <ScalarProperty Name="Tute_id" ColumnName="Tute_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

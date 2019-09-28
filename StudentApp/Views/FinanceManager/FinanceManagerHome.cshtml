@@ -1,0 +1,232 @@
+﻿
+@{
+    ViewBag.Title = "Finance Manager";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>  <!--  Chart JS -->
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/FinanceCommon.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:400,700&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<body style="background-color:white;">
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active">
+                                <span> Overview </span>
+
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span> @Html.ActionLink("Income", "Income") </span>
+
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span>  @Html.ActionLink("Expenses", "Expenses") </span>
+
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span>  @Html.ActionLink("Invoices", "Invoices") </span>
+
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span>  @Html.ActionLink("Taxes", "Taxes") </span>
+
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span>  @Html.ActionLink("Bills", "Bill") </span>
+
+                            </a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span>  @Html.ActionLink("Income", "Income") </span>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- End Of The Side Nav -->
+    <!-- Start of Web Content-->
+
+
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+
+        <main role="main" class="col-md-auto">
+
+
+            <h2 class="homeTop" style="color:#0984e3"> <span> Overview </span></h2>
+
+
+            <button class="form-inline" onclick="setVal()" > Demo  </button>
+
+
+          
+
+
+
+            <div class="card">
+
+
+                <div class="card-body">
+                    <canvas id="overViewChart" class="my-4 w-100" width="1000" height="500"> </canvas>
+                </div>
+
+
+            </div>
+
+
+
+
+        </main>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+<script type="text/javascript">
+
+ 
+
+        gradientChartOptionsConfigurationWithTooltipPurple = {
+            maintainAspectRatio: false,
+            legend: {
+                display: false
+            },
+
+            tooltips: {
+                backgroundColor: '#f5f5f5',
+                titleFontColor: '#333',
+                bodyFontColor: '#666',
+                bodySpacing: 4,
+                xPadding: 12,
+                mode: "nearest",
+                intersect: 0,
+                position: "nearest"
+            },
+            responsive: true,
+            scales: {
+                yAxes: [{
+                    barPercentage: 1.6,
+                    gridLines: {
+                        drawBorder: false,
+                        color: 'rgba(29,140,248,0.0)',
+                        zeroLineColor: "transparent",
+                    },
+                    ticks: {
+                        suggestedMin: 60,
+                        suggestedMax: 125,
+                        padding: 20,
+                        fontColor: "#9a9a9a"
+                    }
+                }],
+
+                xAxes: [{
+                    barPercentage: 1.6,
+                    gridLines: {
+                        drawBorder: false,
+                        color: 'rgba(225,78,202,0.1)',
+                        zeroLineColor: "transparent",
+                    },
+                    ticks: {
+                        padding: 20,
+                        fontColor: "#9a9a9a"
+                    }
+                }]
+            }
+        };
+
+        var ctx = document.getElementById('overViewChart').getContext('2d');
+        var gradientStroke = ctx.createLinearGradient(0, 230, 0, 50);
+
+        gradientStroke.addColorStop(1, 'rgba(72,72,176,0.1)');
+        gradientStroke.addColorStop(0.4, 'rgba(72,72,176,0.0)');
+    gradientStroke.addColorStop(0, 'rgba(119,52,169,0)');
+
+
+    array = [0];
+
+    function setVal() {
+
+        array = [31244, 28391, 40000, 14836, 50000, 12000, 11000, 30000, 32000, 0, 0, 0];
+
+
+
+        var myChartData = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
+                datasets: [{
+                    label: "My First dataset",
+                    fill: true,
+                    backgroundColor: gradientStroke,
+                    borderColor: '#d346b1',
+                    borderWidth: 2,
+                    borderDash: [],
+                    borderDashOffset: 0.0,
+                    pointBackgroundColor: '#d346b1',
+                    pointBorderColor: 'rgba(255,255,255,0)',
+                    pointHoverBackgroundColor: '#d346b1',
+                    pointBorderWidth: 20,
+                    pointHoverRadius: 4,
+                    pointHoverBorderWidth: 15,
+                    pointRadius: 4,
+
+                    data: array,
+                }]
+            },
+            options: gradientChartOptionsConfigurationWithTooltipPurple
+        }
+
+        );
+
+
+    }
+
+    
+    
+</script>
+
+

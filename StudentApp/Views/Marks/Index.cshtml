@@ -1,0 +1,163 @@
+﻿@model IPagedList<StudentApp.Models.marksInfo>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*me kalla*@
+@using PagedList.Mvc;
+@using PagedList;
+
+
+<div class="jumbotron">
+    <center>
+        <h1><b>Pubudu Education Centre</b></h1>
+        <h2>Marks Management</h2>
+
+    </center>
+</div>
+<style>
+    .btn-group .button {
+        background-color: white; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+    }
+
+    #mark {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        #mark td, #mark th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #mark tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #mark tr:hover {
+            background-color: #ddd;
+        }
+
+        #mark th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #0a3d62;
+            color: white;
+        }
+    /*
+        .btn-group .button:hover {
+            background-color: black;
+        }*/
+
+
+    .button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+</style>
+
+<center>
+    <div class="btn-group">
+        <button class="button"> <img src="~/img/grade.png" width="20px" /> @Html.ActionLink("Add Marks", "Create")</button>
+        <button class="button"> <img src="~/img/s3.png" width="20px" />@Html.ActionLink(" Filter Marks ", "Search")</button>
+        <button class="button"><img src="~/img/s5.png" width="20px" />@Html.ActionLink("Generate Report", "Reports", new { ReportType = "PDF" })</button>
+        <button class="button"><img src="~/img/homie.png" width="20px" />@Html.ActionLink(" Home ", "../Subjects/mainSub")</button>
+        <button class="button"><img src="~/img/s6.png" width="20px" />@Html.ActionLink(" Logout ", "../Home")</button>
+
+    </div>
+</center>
+
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>*@
+<table class="table" id="mark">
+    <tr>
+        <th>
+            Exam Name
+            @*@Html.DisplayNameFor(model => model.exam.exam_title)*@
+        </th>
+        <th>
+            Student Name
+            @*@Html.DisplayNameFor(model => model.Student.Full_Name)*@
+        </th>
+        <th>
+            Subject
+            @*@Html.DisplayNameFor(model => model.subject.title)*@
+        </th>
+        <th>
+            Marks
+            @*@Html.DisplayNameFor(model => model.marks)*@
+        </th>
+        <th>
+            Grade
+            @*@Html.DisplayNameFor(model => model.marks)*@
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.exam.exam_title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Student.Full_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.subject.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.marks)
+            </td>
+            <td>
+                @{
+                    Char g;
+                    if (item.marks >= 75)
+                    {
+                        g = 'A';
+                    }
+                    else if (item.marks >= 65)
+                    {
+                        g = 'B';
+                    }
+                    else if (item.marks >= 55)
+                    {
+                        g = 'C';
+                    }
+                    else if (item.marks >= 35)
+                    {
+                        g = 'S';
+                    }
+                    else
+                    {
+                        g = 'F';
+                    }
+                    <b>@g</b>
+                }
+            </td>
+            <td>
+                @*@Html.ActionLink("Edit", "Edit", new { id = item.m_id }) |*@
+                @Html.ActionLink("Details", "Details", new { id = item.m_id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.m_id })
+            </td>
+        </tr>
+    }
+
+</table>
+
+@*me kalla*@
+
+@Html.PagedListPager(Model,i=>Url.Action("Index","Marks",new { i ,search =Request.QueryString["search"]}))

@@ -1,0 +1,279 @@
+﻿@model IEnumerable<StudentApp.Models.Student>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<style>
+
+
+    /*---------------------------services---------------------------*/
+    #services {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #testimonials .row {
+        margin-top: 30px;
+    }
+
+    .col-md-4 {
+        margin: 40px auto;
+    }
+
+    .profile {
+        padding: 30px 10px 10px;
+        background-color: #efefef;
+    }
+
+
+
+
+
+        .profile h3 {
+            font-size: 20px;
+            margin-top: 15px;
+            color: #007bff;
+        }
+
+
+    #testimonials span {
+        font-size: 12px;
+        color: #333;
+    }
+
+    blockquote {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+        blockquote::before {
+            content: '\93';
+            font-size: 50px;
+            color: #007bff;
+            position: relative;
+            line-height: 20px;
+            bottom: -15px;
+            right: 5px;
+        }
+
+        blockquote::after {
+            content: '\94';
+            font-size: 50px;
+            color: #007bff;
+            position: relative;
+            line-height: 10px;
+            bottom: -15px;
+            left: 5px;
+        }
+
+    .profile:hover {
+        box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+
+    /*-----------------------------promo------------------------------*/
+
+    #promo {
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../img/ee.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        background-attachment: fixed;
+        text-align: center;
+        padding: 60px;
+        font-family: sans-serif;
+        font-size: 38px;
+    }
+
+        #promo p {
+            font-size: 15px;
+        }
+
+    #contact {
+        background: #efefef;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: #777;
+    }
+
+
+    /*-----------------------------------get in touch-----------------------*/
+
+    #contact {
+        background: #efefef;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: #777;
+    }
+
+    .contact-form {
+        padding: 55px;
+    }
+
+    .form-control{
+    border-radius: 0 !important;
+    border:none !important;
+    }
+
+    ::placeholder {
+        color: #999 !important;
+    }
+
+    .follow {
+        background: #fff;
+        padding: 10px;
+        margin: 15px;
+    }
+
+    .contact-info .fa {
+        margin: 10px;
+        color: #007bff;
+        font-weight: bold;
+    }
+</style>
+
+<div class="jumbotron">
+    <center>
+        <h1><b>Pubudu Education Centre</b></h1>
+
+        <p class="lead"><b>Making Your Dreams Possible</b></p>
+        <p>
+            @Html.ActionLink("Login ", "loginUser")|
+            @Html.ActionLink("Register ", "Register")
+        </p>
+    </center>
+</div>
+
+<!-----------------About us--------------------->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Who We Are?</h2>
+                <div class="about-content">
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                        a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature,
+                        discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+                        (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics,
+                        very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+                        comes from a line in section 1.10.32.
+                    </p>
+
+                    <button type="button" class="btn btn-primary">
+                        See more
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6 skills-bar">
+
+                <div class="about-content">
+                    <h2>Our Vision</h2>
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                        a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                    </p>
+                    <h2>Our Mission</h2>
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                        a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br /><br />
+<!----------------promo------------------>
+<section id="promo">
+    <center>
+        We are here to make your future better<br />
+        <p>Do you know we are the largest education institute in Galle district. We have live 5000 students, 20 teachers, 10 instructors and 30 employees</p>
+        info@pubudu.lk
+    </center>
+</section>
+<!------------promo section end------------->
+<!-----------services----------->
+<section id="services">
+    <div class="container">
+        <center><h1>Our Services</h1></center>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="profile">
+                    <h3><span>Ordinary Level</span></h3>
+                    <blockquote>
+                        We are here to teach programming.we have 100 lectureres 1000 lectures and 500 softwares.
+                        We are here to teach programming.we have 100 lectureres 1000 lectures and 500 softwares.
+                    </blockquote>
+
+
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="profile">
+                    <h3><span> Advanced Level</span></h3>
+                    <blockquote>
+                        We are here to teach programming.we have 100 lectureres 1000 lectures and 500 softwares.
+                        We are here to teach programming.we have 100 lectureres 1000 lectures and 500 softwares.
+                    </blockquote>
+
+
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="profile">
+                    <h3><span> Courses</span></h3>
+                    <blockquote>
+                        We are here to teach programming.we have 100 lectureres 1000 lectures and 500 softwares.
+                        We are here to teach programming.we have 100 lectureres 1000 lectures and 500 softwares.
+                    </blockquote>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-----------services section end----------->
+<!-----------get in touch----------->
+<section id="contact">
+    <div class="container">
+        
+        <div class="row">
+            <center>
+                <h1>Get in touch</h1>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" row="4" placeholder="Message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Send Message
+                    </button>
+                </form>
+
+            </center>
+
+        </div>
+    </div>
+</section>
+<!---------get in touch section end-------->

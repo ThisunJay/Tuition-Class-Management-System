@@ -1,0 +1,143 @@
+﻿
+
+@model IEnumerable<StudentApp.Models.Tax>
+
+
+@{
+    ViewBag.Title = "Taxes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>  <!--  Chart JS -->
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/FinanceCommon.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:400,700&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active">
+                                <span> Overview </span>
+
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span> @Html.ActionLink("Income", "Income") </span>
+
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span>  @Html.ActionLink("Expenses", "Expenses") </span>
+
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span>  @Html.ActionLink("Invoices", "Invoices") </span>
+
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span>  @Html.ActionLink("Taxes", "Taxes") </span>
+
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span>  @Html.ActionLink("Bills", "Bill") </span>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- End Of The Side Nav -->
+    <!-- Start of Web Content-->
+
+
+    <div class="container-fluid" style="margin-left:200px;">
+     
+
+        <h2 style="color:#0984e3"> Taxes </h2>
+
+        <div class="card">
+            <div class="card-header"> New Tax </div>
+            <div class="col-md-auto">
+                @Html.ActionLink("New", "Create")
+
+                <br /> <br />
+
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-auto" id="taxResults" style="width:auto; height:auto; color:white;">
+            <div class="table-responsive">
+                <table class="table table-hover table-dark tbl" style="width:auto">
+                    <thead class="table-dark">
+                        <tr style="padding:12px; text-align:center;">
+                            <th> Tax ID </th>
+                            <th> Type </th>
+                            <th> Date </th>
+                            <th> Amount </th>
+                            <th> Description </th>
+                            <th> Operations </th>  <!-- Operation Column -->
+                        </tr>
+                    </thead>
+                    @foreach (var item in Model)
+                {
+                    <tr>
+                        <td> @Html.DisplayFor(modelItem => item.taxId)</td>
+                        <td> @Html.DisplayFor(modelItem => item.type)</td>
+                        <td> @Html.DisplayFor(modelItem => item.date)</td>
+                        <td> @Html.DisplayFor(modelItem => item.amount)</td>
+                        <td> @Html.DisplayFor(modelItem => item.descrption)</td>
+                        <td> @Html.ActionLink("Edit", "EditTax", new { id = item.taxId }) </td>
+
+                    </tr>
+            }
+
+
+
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
+

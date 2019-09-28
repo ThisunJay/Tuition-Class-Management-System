@@ -1,0 +1,1876 @@
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\StudentApp.dll.config
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\StudentApp.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\StudentApp.pdb
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\csc.exe
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\csc.exe.config
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\csc.rsp
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\csi.exe
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\csi.exe.config
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\csi.rsp
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.AppContext.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Console.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Compression.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Pipes.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Claims.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.ValueTuple.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XPath.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\vbc.exe
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\vbc.exe.config
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\vbc.rsp
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\VBCSCompiler.exe
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\Antlr3.Runtime.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\EntityFramework.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\EntityFramework.SqlServer.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\Newtonsoft.Json.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.Helpers.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.Mvc.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.Optimization.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.Razor.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Deployment.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Razor.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\WebGrease.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\EntityFramework.xml
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\EntityFramework.SqlServer.xml
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.Helpers.xml
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.Mvc.xml
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.Optimization.xml
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.Razor.xml
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.xml
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Deployment.xml
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Razor.xml
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\Newtonsoft.Json.xml
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\Antlr3.Runtime.pdb
+D:\VS Projects\TMS\StudentApp\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VS Projects\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+D:\VS Projects\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+D:\VS Projects\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.dll
+D:\VS Projects\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\StudentApp.dll.config
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\StudentApp.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\StudentApp.pdb
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\csc.exe
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\csc.exe.config
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\csc.rsp
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\csi.exe
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\csi.exe.config
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\csi.rsp
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.AppContext.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Console.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Compression.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Pipes.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Claims.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.ValueTuple.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XPath.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\vbc.exe
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\vbc.exe.config
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\vbc.rsp
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\VBCSCompiler.exe
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\Antlr3.Runtime.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\EntityFramework.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\EntityFramework.SqlServer.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\Newtonsoft.Json.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.Helpers.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.Mvc.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.Optimization.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.Razor.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Deployment.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Razor.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\WebGrease.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\EntityFramework.xml
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\EntityFramework.SqlServer.xml
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.Helpers.xml
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.Mvc.xml
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.Optimization.xml
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.Razor.xml
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.xml
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Deployment.xml
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Razor.xml
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\Newtonsoft.Json.xml
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\Antlr3.Runtime.pdb
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.dll
+D:\VS Projects\originals\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\StudentApp.dll.config
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\StudentApp.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\StudentApp.pdb
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\csc.exe
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\csc.exe.config
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\csc.rsp
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\csi.exe
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\csi.exe.config
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\csi.rsp
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.AppContext.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Console.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Compression.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Pipes.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Claims.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.ValueTuple.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XPath.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\vbc.exe
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\vbc.exe.config
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\vbc.rsp
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\VBCSCompiler.exe
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\Antlr3.Runtime.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\EntityFramework.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\EntityFramework.SqlServer.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\Newtonsoft.Json.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Helpers.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Mvc.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Optimization.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Razor.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Deployment.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Razor.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\WebGrease.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\EntityFramework.xml
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\EntityFramework.SqlServer.xml
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Helpers.xml
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Mvc.xml
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Optimization.xml
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Razor.xml
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.xml
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Deployment.xml
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Razor.xml
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\Newtonsoft.Json.xml
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\Antlr3.Runtime.pdb
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.dll
+D:\VS Projects\dan karana eka\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\StudentApp.dll.config
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\StudentApp.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\StudentApp.pdb
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\csc.exe
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\csc.exe.config
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\csc.rsp
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\csi.exe
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\csi.exe.config
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\csi.rsp
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.AppContext.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Console.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\vbc.exe
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\vbc.exe.config
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\vbc.rsp
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\Antlr3.Runtime.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\EntityFramework.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\Newtonsoft.Json.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Helpers.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Mvc.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Optimization.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Razor.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\WebGrease.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\EntityFramework.xml
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Helpers.xml
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Mvc.xml
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Optimization.xml
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.Razor.xml
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.xml
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\Newtonsoft.Json.xml
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.dll
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+C:\Users\Asus\Desktop\dan karana eka\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+D:\final\TMS\StudentApp\StudentApp\bin\StudentApp.dll.config
+D:\final\TMS\StudentApp\StudentApp\bin\StudentApp.dll
+D:\final\TMS\StudentApp\StudentApp\bin\StudentApp.pdb
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\csc.exe
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\csc.exe.config
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\csc.rsp
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\csi.exe
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\csi.exe.config
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\csi.rsp
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.AppContext.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Console.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Compression.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.IO.Pipes.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Claims.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.ValueTuple.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XPath.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\vbc.exe
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\vbc.exe.config
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\vbc.rsp
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\VBCSCompiler.exe
+D:\final\TMS\StudentApp\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+D:\final\TMS\StudentApp\StudentApp\bin\Antlr3.Runtime.dll
+D:\final\TMS\StudentApp\StudentApp\bin\EntityFramework.dll
+D:\final\TMS\StudentApp\StudentApp\bin\EntityFramework.SqlServer.dll
+D:\final\TMS\StudentApp\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\final\TMS\StudentApp\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+D:\final\TMS\StudentApp\StudentApp\bin\Newtonsoft.Json.dll
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.Helpers.dll
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.Mvc.dll
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.Optimization.dll
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.Razor.dll
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Deployment.dll
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.dll
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Razor.dll
+D:\final\TMS\StudentApp\StudentApp\bin\WebGrease.dll
+D:\final\TMS\StudentApp\StudentApp\bin\EntityFramework.xml
+D:\final\TMS\StudentApp\StudentApp\bin\EntityFramework.SqlServer.xml
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.Helpers.xml
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.Mvc.xml
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.Optimization.xml
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.Razor.xml
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.xml
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Deployment.xml
+D:\final\TMS\StudentApp\StudentApp\bin\System.Web.WebPages.Razor.xml
+D:\final\TMS\StudentApp\StudentApp\bin\Newtonsoft.Json.xml
+D:\final\TMS\StudentApp\StudentApp\bin\Antlr3.Runtime.pdb
+D:\final\TMS\StudentApp\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\final\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+D:\final\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+D:\final\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.dll
+D:\final\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.pdb
+D:\final\TMS\StudentApp\StudentApp\obj\Debug\StudentApp.csprojResolveAssemblyReference.cache
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\StudentApp.dll.config
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\StudentApp.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\StudentApp.pdb
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\csc.exe
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\csc.exe.config
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\csc.rsp
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\csi.exe
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\csi.exe.config
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\csi.rsp
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.AppContext.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Console.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.IO.Compression.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.IO.Pipes.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Security.Claims.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.ValueTuple.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Xml.XPath.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\vbc.exe
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\vbc.exe.config
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\vbc.rsp
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\VBCSCompiler.exe
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\Antlr3.Runtime.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\EntityFramework.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\EntityFramework.SqlServer.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\Newtonsoft.Json.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.Helpers.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.Mvc.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.Optimization.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.Razor.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.WebPages.Deployment.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.WebPages.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.WebPages.Razor.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\WebGrease.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\EntityFramework.xml
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\EntityFramework.SqlServer.xml
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.Helpers.xml
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.Mvc.xml
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.Optimization.xml
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.Razor.xml
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.WebPages.xml
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.WebPages.Deployment.xml
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\System.Web.WebPages.Razor.xml
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\Newtonsoft.Json.xml
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\Antlr3.Runtime.pdb
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\obj\Debug\StudentApp.csprojResolveAssemblyReference.cache
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\obj\Debug\StudentApp.dll
+D:\Tuition-Class-System-44119d046fd21fd26f150b9cfef27bd19679d548\StudentApp\obj\Debug\StudentApp.pdb
+F:\ITP project\ITP-final-master\StudentApp\bin\StudentApp.dll.config
+F:\ITP project\ITP-final-master\StudentApp\bin\StudentApp.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\StudentApp.pdb
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\csc.exe
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\csc.exe.config
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\csc.rsp
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\csi.exe
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\csi.exe.config
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\csi.rsp
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.AppContext.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Console.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.IO.Compression.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.IO.Pipes.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.Claims.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.ValueTuple.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Xml.XPath.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\vbc.exe
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\vbc.exe.config
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\vbc.rsp
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\VBCSCompiler.exe
+F:\ITP project\ITP-final-master\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+F:\ITP project\ITP-final-master\StudentApp\bin\Antlr3.Runtime.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\EntityFramework.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\EntityFramework.SqlServer.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\Newtonsoft.Json.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.Helpers.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.Mvc.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.Optimization.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.Razor.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.WebPages.Deployment.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.WebPages.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.WebPages.Razor.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\WebGrease.dll
+F:\ITP project\ITP-final-master\StudentApp\bin\EntityFramework.xml
+F:\ITP project\ITP-final-master\StudentApp\bin\EntityFramework.SqlServer.xml
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.Helpers.xml
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.Mvc.xml
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.Optimization.xml
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.Razor.xml
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.WebPages.xml
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.WebPages.Deployment.xml
+F:\ITP project\ITP-final-master\StudentApp\bin\System.Web.WebPages.Razor.xml
+F:\ITP project\ITP-final-master\StudentApp\bin\Newtonsoft.Json.xml
+F:\ITP project\ITP-final-master\StudentApp\bin\Antlr3.Runtime.pdb
+F:\ITP project\ITP-final-master\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\ITP project\ITP-final-master\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+F:\ITP project\ITP-final-master\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+F:\ITP project\ITP-final-master\StudentApp\obj\Debug\StudentApp.dll
+F:\ITP project\ITP-final-master\StudentApp\obj\Debug\StudentApp.pdb
+F:\ITP project\ITP-final-master\StudentApp\obj\Debug\StudentApp.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\StudentApp.dll.config
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\StudentApp.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\StudentApp.pdb
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\csc.exe
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\csc.exe.config
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\csc.rsp
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\csi.exe
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\csi.exe.config
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\csi.rsp
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.AppContext.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Console.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\vbc.exe
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\vbc.exe.config
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\vbc.rsp
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\Antlr3.Runtime.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\EntityFramework.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\Newtonsoft.Json.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.Helpers.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.Mvc.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.Optimization.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.Razor.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.WebPages.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\WebGrease.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\EntityFramework.xml
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.Helpers.xml
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.Mvc.xml
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.Optimization.xml
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.Razor.xml
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.WebPages.xml
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\Newtonsoft.Json.xml
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\obj\Debug\StudentApp.dll
+C:\Users\Asus\Downloads\ITP project (1)\ITP project\ITP-final-master\StudentApp\obj\Debug\StudentApp.pdb
+F:\DAN EKA\StudentApp\bin\StudentApp.dll.config
+F:\DAN EKA\StudentApp\bin\StudentApp.dll
+F:\DAN EKA\StudentApp\bin\StudentApp.pdb
+F:\DAN EKA\StudentApp\bin\roslyn\csc.exe
+F:\DAN EKA\StudentApp\bin\roslyn\csc.exe.config
+F:\DAN EKA\StudentApp\bin\roslyn\csc.rsp
+F:\DAN EKA\StudentApp\bin\roslyn\csi.exe
+F:\DAN EKA\StudentApp\bin\roslyn\csi.exe.config
+F:\DAN EKA\StudentApp\bin\roslyn\csi.rsp
+F:\DAN EKA\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\DAN EKA\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\DAN EKA\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\DAN EKA\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\DAN EKA\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\DAN EKA\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\DAN EKA\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\DAN EKA\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\DAN EKA\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\DAN EKA\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+F:\DAN EKA\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\DAN EKA\StudentApp\bin\roslyn\System.AppContext.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Console.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.IO.Compression.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.IO.Pipes.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Security.Claims.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.ValueTuple.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Xml.XPath.dll
+F:\DAN EKA\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\DAN EKA\StudentApp\bin\roslyn\vbc.exe
+F:\DAN EKA\StudentApp\bin\roslyn\vbc.exe.config
+F:\DAN EKA\StudentApp\bin\roslyn\vbc.rsp
+F:\DAN EKA\StudentApp\bin\roslyn\VBCSCompiler.exe
+F:\DAN EKA\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+F:\DAN EKA\StudentApp\bin\Antlr3.Runtime.dll
+F:\DAN EKA\StudentApp\bin\EntityFramework.dll
+F:\DAN EKA\StudentApp\bin\EntityFramework.SqlServer.dll
+F:\DAN EKA\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\DAN EKA\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+F:\DAN EKA\StudentApp\bin\Newtonsoft.Json.dll
+F:\DAN EKA\StudentApp\bin\System.Web.Helpers.dll
+F:\DAN EKA\StudentApp\bin\System.Web.Mvc.dll
+F:\DAN EKA\StudentApp\bin\System.Web.Optimization.dll
+F:\DAN EKA\StudentApp\bin\System.Web.Razor.dll
+F:\DAN EKA\StudentApp\bin\System.Web.WebPages.Deployment.dll
+F:\DAN EKA\StudentApp\bin\System.Web.WebPages.dll
+F:\DAN EKA\StudentApp\bin\System.Web.WebPages.Razor.dll
+F:\DAN EKA\StudentApp\bin\WebGrease.dll
+F:\DAN EKA\StudentApp\bin\EntityFramework.xml
+F:\DAN EKA\StudentApp\bin\EntityFramework.SqlServer.xml
+F:\DAN EKA\StudentApp\bin\System.Web.Helpers.xml
+F:\DAN EKA\StudentApp\bin\System.Web.Mvc.xml
+F:\DAN EKA\StudentApp\bin\System.Web.Optimization.xml
+F:\DAN EKA\StudentApp\bin\System.Web.Razor.xml
+F:\DAN EKA\StudentApp\bin\System.Web.WebPages.xml
+F:\DAN EKA\StudentApp\bin\System.Web.WebPages.Deployment.xml
+F:\DAN EKA\StudentApp\bin\System.Web.WebPages.Razor.xml
+F:\DAN EKA\StudentApp\bin\Newtonsoft.Json.xml
+F:\DAN EKA\StudentApp\bin\Antlr3.Runtime.pdb
+F:\DAN EKA\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\DAN EKA\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+F:\DAN EKA\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+F:\DAN EKA\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+F:\DAN EKA\StudentApp\obj\Debug\StudentApp.dll
+F:\DAN EKA\StudentApp\obj\Debug\StudentApp.pdb
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\StudentApp.dll.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\StudentApp.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\StudentApp.pdb
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\csc.exe
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\csc.exe.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\csc.rsp
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\csi.exe
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\csi.exe.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\csi.rsp
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.AppContext.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Console.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\vbc.exe
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\vbc.exe.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\vbc.rsp
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\Antlr3.Runtime.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\EntityFramework.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\Newtonsoft.Json.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.Helpers.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.Mvc.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.Optimization.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.Razor.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.WebPages.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\WebGrease.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\EntityFramework.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.Helpers.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.Mvc.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.Optimization.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.Razor.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.WebPages.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\Newtonsoft.Json.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\obj\Debug\StudentApp.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\obj\Debug\StudentApp.pdb
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\StudentApp.dll.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\StudentApp.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\StudentApp.pdb
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\csc.exe
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\csc.exe.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\csc.rsp
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\csi.exe
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\csi.exe.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\csi.rsp
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.AppContext.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Console.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\vbc.exe
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\vbc.exe.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\vbc.rsp
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\Antlr3.Runtime.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\EntityFramework.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\Newtonsoft.Json.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.Helpers.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.Mvc.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.Optimization.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.Razor.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.WebPages.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\WebGrease.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\EntityFramework.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.Helpers.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.Mvc.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.Optimization.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.Razor.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.WebPages.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\Newtonsoft.Json.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\obj\Debug\StudentApp.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectosa2\StudentApp\obj\Debug\StudentApp.pdb
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\StudentApp.dll.config
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\StudentApp.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\StudentApp.pdb
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe.config
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\csc.rsp
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe.config
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\csi.rsp
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.AppContext.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Console.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Compression.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Claims.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.ValueTuple.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe.config
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\vbc.rsp
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\EntityFramework.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.Razor.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\WebGrease.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\EntityFramework.xml
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.xml
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.xml
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.xml
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.xml
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.Razor.xml
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.xml
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.xml
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.xml
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.xml
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.pdb
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.dll
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.pdb
+F:\Osandage version eka\Osandage version 3\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csprojResolveAssemblyReference.cache
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\StudentApp.dll.config
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\StudentApp.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\StudentApp.pdb
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\Antlr3.Runtime.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\EntityFramework.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\Newtonsoft.Json.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.Helpers.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.Mvc.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.Optimization.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.Razor.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.WebPages.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\WebGrease.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\EntityFramework.xml
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.Helpers.xml
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.Mvc.xml
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.Optimization.xml
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.Razor.xml
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.WebPages.xml
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\Newtonsoft.Json.xml
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\Antlr3.Runtime.pdb
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\obj\Debug\StudentApp.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\obj\Debug\StudentApp.pdb
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\csc.exe
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\csc.exe.config
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\csc.rsp
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\csi.exe
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\csi.exe.config
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\csi.rsp
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.AppContext.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Console.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\vbc.exe
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\vbc.exe.config
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\vbc.rsp
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\PagedList.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\PagedList.Mvc.dll
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\PagedList.xml
+C:\Users\Adithya\Desktop\DAN EKA V2\StudentApp\bin\PagedList.Mvc.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\StudentApp.dll.config
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\StudentApp.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\StudentApp.pdb
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe.config
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\csc.rsp
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe.config
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\csi.rsp
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.AppContext.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Console.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Compression.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Claims.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.ValueTuple.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe.config
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\vbc.rsp
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\EntityFramework.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\PagedList.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.Razor.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\WebGrease.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\EntityFramework.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\PagedList.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.Razor.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.pdb
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csprojResolveAssemblyReference.cache
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.pdb
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.Common.dll
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.xml
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.cache
+F:\Osandage version eka\Osandage version 4\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.compiled
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\StudentApp.dll.config
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\StudentApp.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\StudentApp.pdb
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe.config
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\csc.rsp
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe.config
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\csi.rsp
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.AppContext.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Console.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Compression.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Claims.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.ValueTuple.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe.config
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\vbc.rsp
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\EntityFramework.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\PagedList.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.Razor.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\WebGrease.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.Common.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\EntityFramework.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\PagedList.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.Razor.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.pdb
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csprojResolveAssemblyReference.cache
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.cache
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.compiled
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.dll
+F:\Osandage version eka\Osandage version 5\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.pdb
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\StudentApp.dll.config
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\StudentApp.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\StudentApp.pdb
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe.config
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\csc.rsp
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe.config
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\csi.rsp
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.AppContext.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Console.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Compression.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Claims.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.ValueTuple.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe.config
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\vbc.rsp
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\EntityFramework.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\PagedList.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.Razor.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\WebGrease.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.Common.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\EntityFramework.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\PagedList.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.Razor.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.pdb
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csprojResolveAssemblyReference.cache
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.cache
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.compiled
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.dll
+F:\Osandage version eka\Osandage version 6\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.pdb
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\StudentApp.dll.config
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\StudentApp.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\StudentApp.pdb
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe.config
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\csc.rsp
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe.config
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\csi.rsp
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.AppContext.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Console.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Compression.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Claims.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.ValueTuple.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe.config
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\vbc.rsp
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\EntityFramework.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\PagedList.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.Razor.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\WebGrease.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.Common.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\EntityFramework.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\PagedList.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.Razor.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.pdb
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csprojResolveAssemblyReference.cache
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.cache
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.compiled
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.dll
+F:\Osandage version eka\Osandage version 8 Damish\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.pdb
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\StudentApp.dll.config
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\StudentApp.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\StudentApp.pdb
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe.config
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\csc.rsp
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe.config
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\csi.rsp
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.AppContext.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Console.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Compression.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Claims.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.ValueTuple.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe.config
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\vbc.rsp
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\EntityFramework.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\PagedList.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.Razor.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\WebGrease.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.Common.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\EntityFramework.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\PagedList.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.Razor.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.pdb
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csprojResolveAssemblyReference.cache
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.cache
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.compiled
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.dll
+F:\Osandage version eka\Osandage version 9 Pasan\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.pdb
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\StudentApp.dll.config
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\StudentApp.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\StudentApp.pdb
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe.config
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\csc.rsp
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe.config
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\csi.rsp
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.AppContext.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Console.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Compression.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Claims.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.ValueTuple.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe.config
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\vbc.rsp
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\EntityFramework.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\PagedList.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.Razor.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\WebGrease.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.Common.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\EntityFramework.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\PagedList.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.Razor.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.pdb
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csprojResolveAssemblyReference.cache
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.cache
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.compiled
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.dll
+F:\Osandage version eka\Osandage version 10\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.pdb
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\StudentApp.dll.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\StudentApp.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\StudentApp.pdb
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\Antlr3.Runtime.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\EntityFramework.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\Newtonsoft.Json.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\PagedList.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\PagedList.Mvc.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.Helpers.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.Mvc.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.Optimization.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.Razor.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.WebPages.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\WebGrease.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\EntityFramework.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\Microsoft.ReportViewer.WebForms.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\PagedList.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\PagedList.Mvc.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.Helpers.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.Mvc.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.Optimization.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.Razor.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.WebPages.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\Newtonsoft.Json.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\obj\Debug\StudentApp.csprojAssemblyReference.cache
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\obj\Debug\StudentApp.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projectfinal2\StudentApp\obj\Debug\StudentApp.pdb
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\StudentApp.dll.config
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\StudentApp.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\StudentApp.pdb
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe.config
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\csc.rsp
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe.config
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\csi.rsp
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.AppContext.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Console.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Compression.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Claims.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.ValueTuple.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe.config
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\vbc.rsp
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\EntityFramework.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\PagedList.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.Razor.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\WebGrease.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.Common.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\EntityFramework.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\PagedList.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.Razor.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.pdb
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csprojResolveAssemblyReference.cache
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.cache
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.compiled
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.dll
+F:\Osandage version eka\Osandage version 11\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.pdb
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\StudentApp.dll.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\StudentApp.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\StudentApp.pdb
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\csc.exe
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\csc.exe.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\csc.rsp
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\csi.exe
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\csi.exe.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\csi.rsp
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.AppContext.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Console.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\vbc.exe
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\vbc.exe.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\vbc.rsp
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\Antlr3.Runtime.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\EntityFramework.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\Newtonsoft.Json.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\PagedList.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\PagedList.Mvc.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.Helpers.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.Mvc.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.Optimization.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.Razor.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.WebPages.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\WebGrease.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\EntityFramework.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\PagedList.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\PagedList.Mvc.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.Helpers.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.Mvc.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.Optimization.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.Razor.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.WebPages.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\Newtonsoft.Json.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\obj\Debug\StudentApp.dll
+C:\Users\Asus\Source\Repos\ITP-Final-Projecta1\StudentApp\obj\Debug\StudentApp.pdb
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\StudentApp.dll.config
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\StudentApp.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\StudentApp.pdb
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\csc.exe.config
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\csc.rsp
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\csi.exe.config
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\csi.rsp
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.AppContext.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Collections.Immutable.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Console.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Compression.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.IO.Pipes.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.AccessControl.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Claims.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.ValueTuple.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\vbc.exe.config
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\vbc.rsp
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\roslyn\VBCSCompiler.exe.config
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\EntityFramework.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\PagedList.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.Razor.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\WebGrease.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.Common.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\EntityFramework.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\EntityFramework.SqlServer.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\Microsoft.ReportViewer.WebForms.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\PagedList.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\PagedList.Mvc.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.Helpers.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.Mvc.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.Optimization.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.Razor.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Deployment.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\System.Web.WebPages.Razor.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\Newtonsoft.Json.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\Antlr3.Runtime.pdb
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.cache
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\obj\Debug\RdlCompile.compiled
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CoreCompileInputs.cache
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csproj.CopyComplete
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.dll
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.pdb
+F:\Osandage version eka\Osandage version 12\ITP-Final-Project\StudentApp\obj\Debug\StudentApp.csprojResolveAssemblyReference.cache

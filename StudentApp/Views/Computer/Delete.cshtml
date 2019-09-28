@@ -1,0 +1,53 @@
+﻿@model StudentApp.Models.computer
+
+@{
+    /**/
+
+    Layout = null;
+}
+<h2>Delete Machine Details.</h2>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+@using (Html.BeginForm("delete", "Computer", FormMethod.Post, new { id = "popupForm" }))
+{
+    @Html.HiddenFor(a => a.MachineNO)
+    <div class="form-group">
+        <label>Machine No</label>
+        <p>@Model.MachineNO</p>
+
+        <div class="form-group">
+            <label>Processor Type</label>
+            <p>@Model.Processor_Type</p>
+        </div>
+
+        <div class="form-group">
+            <label>Motherboard Model</label>
+            <p>@Model.Motherboard_ID</p>
+        </div>
+
+        <div class="form-group">
+            <label>Power Supply ID</label>
+            <p>@Model.PowerSupply_ID</p>
+        </div>
+
+        <div class="form-group">
+            <label>RAM Capacity</label>
+            <p>@Model.RAM_Capacity</p>
+        </div>
+
+        <div class="form-group">
+            <label>HDD Capacity</label>
+            <p>@Model.HDD_Capacity</p>
+        </div>
+
+        <div>
+            <br />
+            <h4>Confirm?</h4>
+            <br />
+            <i class="fa fa-trash"></i>
+            <input type="submit" class="btn btn-danger btn-sm" value="   Delete  " />
+            <br />
+        </div>
+
+    </div>
+}
+
