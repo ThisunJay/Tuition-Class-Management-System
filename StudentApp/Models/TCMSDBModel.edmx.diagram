@@ -38,7 +38,7 @@
         <EntityTypeShape EntityType="TMSDBModel.emp_attendence" Width="1.5" PointX="13" PointY="5.25" />
         <AssociationConnector Association="TMSDBModel.FK__emp_atten__emp_i__65F62111" />
         <EntityTypeShape EntityType="TMSDBModel.notify" Width="1.5" PointX="10.375" PointY="8.75" />
-        <EntityTypeShape EntityType="TMSDBModel.computer" Width="1.5" PointX="8.375" PointY="0.75" />
+        <EntityTypeShape EntityType="TMSDBModel.computer" Width="1.5" PointX="15" PointY="3.125" />
         <EntityTypeShape EntityType="TMSDBModel.lab" Width="1.5" PointX="10.375" PointY="0.75" />
         <EntityTypeShape EntityType="TMSDBModel.repair" Width="1.5" PointX="12.375" PointY="0.75" />
         <EntityTypeShape EntityType="TMSDBModel.tuteinfo" Width="1.5" PointX="14.5" PointY="11.375" />
